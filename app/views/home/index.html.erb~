@@ -1,2 +1,35 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="content">
+	<div class="splashpage">
+		<%= image_tag "home-graphic.png" %>
+	</div>
+	<div class="splashpage">
+		<div id="Abouttext">
+			<h2>Graphic Design & Illiustration</h2>
+			Wellington, New Zealand<br/>
+			robyn.a.adamson@gmail.com 
+		</div>
+	</div>
+	<div id="featureimage"> 
+		<div id="myGallery">
+		<li><%= image_tag "placeholder-image.png" %></li>
+		<li><%= image_tag "placeholder-image2.png" %></li>
+		<li><%= image_tag "placeholder-image3.png" %></li>
+		<li><%= image_tag "placeholder-image4.png" %></li>
+		</div>
+	</div>
+</div>
+
+<script>
+	$('#myGallery').galleryView({
+    transition_speed: 5000,
+    show_filmstrip: false,
+    panel_animation: 'slide',
+    show_infobar: false,
+    panel_height: 445,
+    panel_width: 245,
+    frame_gap:0,
+    autoplay: true,
+    transition_interval:1000,
+    show_panel_nav: false
+	});
+</script>

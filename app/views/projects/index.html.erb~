@@ -9,11 +9,9 @@
 		</div>
 		<div id="projectinfopane">
 			<div id="tabs">
-				<ul>
-					<li>brief</li>
-					<li>Solution</li>
-					<li>Outcome</li>
-				</ul>
+				<div class="tab" >brief</div>
+					<div class="tab">Solution</div>
+					<div class="tab" id="selected">Outcome</div>
 			</div>
 			<div id="projectinfo">
 				<div id="projecttitle">
@@ -30,7 +28,7 @@
 		</div>
 </div>
 <div class="clear" ></div>
-<hr id="projectrule" />
+
 <div id="projectlist">
 
 </div>

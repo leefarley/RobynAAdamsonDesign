@@ -14,7 +14,7 @@
 	top: 170px;
 }
 #header .headerimage{
-	padding-top:40px;
+	padding:20px 0 20px 0;
 	width:1165px;
 	height:170px;
 }
@@ -46,8 +46,9 @@
 	margin-left: 0px;
 	line-height: 4.2em;
 }
+#body .menu ul li a{color:#fff; text-decoration:none;}
 
-#body .menu ul li#selected{
+#body .menu ul li.selected{
 	background-color: #005F72;
 }
 

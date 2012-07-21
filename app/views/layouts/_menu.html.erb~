@@ -1,0 +1,12 @@
+<div class="menu">
+	<ul>
+		<%= nav_link 'Home', root_path %>
+		<li>About</li>
+		<%= nav_link 'Design', projects_path %>
+		<li>Design</li>
+		<li>Illiustration</li>
+		<li>Miscellaneous</li>
+		<li>Published</li>
+		<li>Attic</li>					
+	</ul>
+</div>
