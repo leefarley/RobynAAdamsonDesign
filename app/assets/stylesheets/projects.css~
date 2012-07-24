@@ -1,11 +1,11 @@
 #projectselected{position:relative;width:960px; height:445px;}
 #projectimageviewer{position:relative;width:720px; height:445px;float:left;}
 #projectinfopane{position:relative;width:246px; height:445px;top:-445px;float:right;background-color: #404041;}
-#projectinfo{}
+#projectinfo{color: #fff;margin:15px 15px 0 15px;}
 #projecttitle{}
 #projectclient{}
-#projectinforule{margin-left:15px;margin-right:15px;}
-#projectcontent{}
+#projectinforule{}
+.projectcontent{}
 #projectlist{}
 #tabs{text-transform:uppercase;width:246px;height:40px;}
 #tabs .tab{
@@ -17,9 +17,9 @@
     float:left;
     text-align: center;
     line-height: 2.6em;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #303031;;
 }
-#tabs .centertab{border-left: 1px solid black;border-left: 1px solid black;}
+#tabs .centertab{border-left: 1px solid black;border-left: 1px solid #303031;}
 #tabs .tab#selected{background-color: #005F72;}
 
 

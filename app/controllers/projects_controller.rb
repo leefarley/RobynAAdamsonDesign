@@ -1,13 +1,54 @@
 class ProjectsController < ApplicationController
-  # GET /projects
-  def index
+  # GET /design
+  def design
     @project = Project.find(1)
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html # design.html.erb
+      format.json { render json: @project }
+    end
+  end
+  
+  # GET /illiustration
+  def illiustration
+    @project = Project.find(1)
+
+    respond_to do |format|
+      format.html # illiustration.html.erb
+      format.json { render json: @project }
+    end
+  end
+  
+  # GET /miscellaneous
+  def miscellaneous
+    @project = Project.find(1)
+
+    respond_to do |format|
+      format.html # miscellaneous.html.erb
+      format.json { render json: @project }
+    end
+  end
+  
+  # GET /published
+  def published
+    @project = Project.find(1)
+
+    respond_to do |format|
+      format.html # published.html.erb
       format.json { render json: @projects }
     end
   end
+    # GET /attic
+  def attic
+    @project = Project.find(1)
+
+    respond_to do |format|
+      format.html # attic.html.erb
+      format.json { render json: @project }
+    end
+  end
+
+
 
   # GET /projects/1.json
   def show
@@ -17,6 +58,12 @@ class ProjectsController < ApplicationController
       format.json { render json: @project }
     end
   end
+
+
+
+
+
+
 
   # GET /projects/new
   # GET /projects/new.json

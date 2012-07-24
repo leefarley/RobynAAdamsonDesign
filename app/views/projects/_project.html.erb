@@ -15,14 +15,23 @@
 			</div>
 			<div id="projectinfo">
 				<div id="projecttitle">
-					<%= @project.title %>
+					<b><%= @project.title %></b>
 				</div>
 				<div id="projectclient">
-					<%= @project.client %>
+					Client: <%= @project.client %>
+				</div>
+				<div id="projectyear">
+					<%= @project.date_added %>
 				</div>
 				<hr id="projectinforule">
-				<div id="projectcontent">
+				<div class="projectcontent">
+				 	<%= @project.brief %>
+				</div>
+				<div class="projectcontent">
 				 	<%= @project.solution %>
+				</div>
+				<div class="projectcontent">
+				 	<%= @project.outcome %>
 				</div>
 			</div>
 		</div>

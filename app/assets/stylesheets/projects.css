@@ -1,11 +1,11 @@
 #projectselected{position:relative;width:960px; height:445px;}
 #projectimageviewer{position:relative;width:720px; height:445px;float:left;}
 #projectinfopane{position:relative;width:246px; height:445px;top:-445px;float:right;background-color: #404041;}
-#projectinfo{}
+#projectinfo{color: #fff;margin:15px 15px 0 15px;}
 #projecttitle{}
-#projectclient{}
-#projectinforule{margin-left:15px;margin-right:15px;}
-#projectcontent{}
+#projectclient{margin-top:5px;}
+#projectinforule{}
+.projectcontent{margin-top:5px;}
 #projectlist{}
 #tabs{text-transform:uppercase;width:246px;height:40px;}
 #tabs .tab{

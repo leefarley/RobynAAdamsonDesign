@@ -18815,3 +18815,3426 @@ Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
 
 Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 09:36:26 +1200
 Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-22 13:32:59 +1200
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (3.1ms)
+  Rendered layouts/_menu.html.erb (0.8ms)
+Completed 200 OK in 124ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /home.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /master.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /projects.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /jquery.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 13:33:00 +1200
+Served asset /web-banner.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 13:33:01 +1200
+Served asset /placeholder-image.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-22 13:33:01 +1200
+Served asset /home-graphic.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 13:33:01 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 13:33:01 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 13:33:01 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (1ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-07-22 13:33:23 +1200
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (32.9ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 409ms (Views: 39.3ms | ActiveRecord: 115.5ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:23 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:23 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:23 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /jquery.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 13:33:24 +1200
+Served asset /placeholder-image.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 13:33:26 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 13:33:26 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_menu.html.erb (0.4ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 13:33:29 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Processing by ProjectsController#index as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/index.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_menu.html.erb (0.7ms)
+Completed 200 OK in 45ms (Views: 43.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /projects.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /web-banner.png - 304 Not Modified (18ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 13:34:31 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-22 13:34:33 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_menu.html.erb (1.8ms)
+Completed 200 OK in 21ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /jquery.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 13:34:34 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-07-22 16:19:00 +1200
+Processing by ProjectsController#index as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_menu.html.erb (0.4ms)
+Completed 200 OK in 60ms (Views: 58.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /master.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:19:01 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:20:38 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:20:38 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-07-22 16:35:02 +1200
+
+ActionController::RoutingError (No route matches [GET] "/projects"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (6.7ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:35:07 +1200
+Processing by ProjectsController#design as HTML
+  Rendered projects/_project.html.erb (101.8ms)
+  Rendered projects/design.html.erb within layouts/application (103.0ms)
+Completed 500 Internal Server Error in 106ms
+
+ActionView::Template::Error (undefined method `title' for nil:NilClass):
+    15: 			</div>
+    16: 			<div id="projectinfo">
+    17: 				<div id="projecttitle">
+    18: 					<%= @project.title %>
+    19: 				</div>
+    20: 				<div id="projectclient">
+    21: 					<%= @project.client %>
+  app/views/projects/_project.html.erb:18:in `_app_views_projects__project_html_erb___255428148__623322928'
+  app/views/projects/design.html.erb:1:in `_app_views_projects_design_html_erb__86803356__623317498'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.8ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (19.4ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/design.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_menu.html.erb (0.5ms)
+Completed 200 OK in 52ms (Views: 29.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /jquery.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /projects.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:35:39 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:35:40 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:35:40 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:35:40 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:35:40 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:35:40 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:35:41 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2012-07-22 16:35:49 +1200
+
+ActionController::RoutingError (No route matches [GET] "/projects"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.5ms)
+  Rendered projects/design.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_menu.html.erb (0.8ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Served asset /jquery.min.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:39:22 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:39:23 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:39:23 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:39:23 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:39:23 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:39:23 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:39:24 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.7ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/design.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_menu.html.erb (0.5ms)
+Completed 200 OK in 21ms (Views: 19.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /jquery.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:39:25 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:40:39 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:40:39 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.9ms)
+  Rendered projects/design.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_menu.html.erb (1.4ms)
+Completed 200 OK in 21ms (Views: 19.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:40 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:40:41 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:40:41 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:40:41 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:40:41 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:40:41 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:40:43 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:40:43 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/illiustration" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Processing by ProjectsController#illiustration as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/illiustration.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Served asset /projects.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:46 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:40:47 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:40:47 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:40:47 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:40:47 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:40:47 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/miscellaneous" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Processing by ProjectsController#miscellaneous as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/miscellaneous.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_menu.html.erb (1.6ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /home.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /master.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:40:48 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:40:49 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/published" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Processing by ProjectsController#published as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/published.html.erb within layouts/application (1.3ms)
+  Rendered layouts/_menu.html.erb (0.8ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /jquery.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:40:50 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/attic.html.erb within layouts/application (12.9ms)
+  Rendered layouts/_menu.html.erb (1.2ms)
+Completed 200 OK in 51ms (Views: 49.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /application.css - 304 Not Modified (31ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:40:52 +1200
+Served asset /placeholder-image.png - 304 Not Modified (3ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/design.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:40:55 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/illiustration" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Processing by ProjectsController#illiustration as HTML
+  [1m[36mProject Load (1.9ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.3ms)
+  Rendered projects/illiustration.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:40:59 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/miscellaneous" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Processing by ProjectsController#miscellaneous as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.5ms)
+  Rendered projects/miscellaneous.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 14ms (Views: 13.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /projects.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:41:24 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/published" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Processing by ProjectsController#published as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.5ms)
+  Rendered projects/published.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 51ms (Views: 50.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Served asset /jquery.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Served asset /master.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:26 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:41:27 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:41:27 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:41:27 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:41:27 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:41:27 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 16:41:28 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/attic.html.erb within layouts/application (1.1ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:41:29 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:44:07 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:44:07 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/attic.html.erb within layouts/application (2.3ms)
+Compiled master.css  (0ms)  (pid 2854)
+Compiled application.css  (6ms)  (pid 2854)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 49ms (Views: 47.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Served asset /application.css - 304 Not Modified (40ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Served asset /master.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Served asset /home.css - 304 Not Modified (54ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Served asset /jquery.min.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:44:57 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:44:58 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:44:58 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:44:58 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:44:58 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:44:58 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 21ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /master.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:01 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (5.9ms)
+  Rendered projects/attic.html.erb within layouts/application (10.3ms)
+  Rendered layouts/_menu.html.erb (1.4ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /placeholder-image.png - 304 Not Modified (16ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:04 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:45:18 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:45:18 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 16:45:19 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/attic.html.erb within layouts/application (1.0ms)
+Compiled master.css  (0ms)  (pid 2854)
+Compiled application.css  (5ms)  (pid 2854)
+  Rendered layouts/_menu.html.erb (1.3ms)
+Completed 200 OK in 79ms (Views: 69.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /application.css - 304 Not Modified (45ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /master.css - 200 OK (19ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /home.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:20 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 16:45:31 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/attic.html.erb within layouts/application (1.1ms)
+Compiled master.css  (0ms)  (pid 2854)
+Compiled application.css  (5ms)  (pid 2854)
+  Rendered layouts/_menu.html.erb (1.2ms)
+Completed 200 OK in 33ms (Views: 31.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /master.css - 200 OK (22ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /placeholder-image.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:32 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 16:45:43 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/attic.html.erb within layouts/application (1.0ms)
+Compiled master.css  (0ms)  (pid 2854)
+Compiled application.css  (7ms)  (pid 2854)
+  Rendered layouts/_menu.html.erb (2.8ms)
+Completed 200 OK in 108ms (Views: 105.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /application.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /master.css - 200 OK (72ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:44 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/published" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Processing by ProjectsController#published as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.3ms)
+  Rendered projects/published.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 30ms (Views: 28.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:47 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:48 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:48 +1200
+Served asset /placeholder-image.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:48 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:48 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:48 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/miscellaneous" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Processing by ProjectsController#miscellaneous as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.3ms)
+  Rendered projects/miscellaneous.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /projects.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /placeholder-image.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:49 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/illiustration" for 127.0.0.1 at 2012-07-22 16:45:50 +1200
+Processing by ProjectsController#illiustration as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.3ms)
+  Rendered projects/illiustration.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 25ms (Views: 24.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /projects.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:51 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (8ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.3ms)
+  Rendered projects/design.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_menu.html.erb (1.3ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /master.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:52 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /web-banner.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:54 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:55 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[35mProject Load (11.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (6.5ms)
+  Rendered projects/attic.html.erb within layouts/application (7.2ms)
+  Rendered layouts/_menu.html.erb (2.6ms)
+Completed 200 OK in 33ms (Views: 20.1ms | ActiveRecord: 11.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /jquery.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:45:58 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/published" for 127.0.0.1 at 2012-07-22 16:46:03 +1200
+Processing by ProjectsController#published as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/published.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_menu.html.erb (1.2ms)
+Completed 200 OK in 41ms (Views: 34.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:03 +1200
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:03 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:03 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:03 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:03 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:04 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:04 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:04 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:46:04 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:46:04 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:46:04 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:46:04 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:46:04 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/miscellaneous" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Processing by ProjectsController#miscellaneous as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (1.1ms)
+  Rendered projects/miscellaneous.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 19ms (Views: 11.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /master.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:46:06 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/illiustration" for 127.0.0.1 at 2012-07-22 16:46:07 +1200
+Processing by ProjectsController#illiustration as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/illiustration.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_menu.html.erb (1.7ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /master.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:46:08 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/design.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_menu.html.erb (1.3ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /home.css - 304 Not Modified (63ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /jquery.min.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:46:09 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /web-banner.png - 304 Not Modified (27ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:46:11 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.3ms)
+  Rendered projects/design.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 26ms (Views: 25.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Served asset /application.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:46:18 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:46:19 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:46:19 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:46:19 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:46:19 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:46:19 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:46:19 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:46:19 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:55:02 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (11.8ms)
+  Rendered projects/design.html.erb within layouts/application (12.4ms)
+  Rendered layouts/_menu.html.erb (1.2ms)
+Completed 200 OK in 22ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:55:02 +1200
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:55:02 +1200
+Served asset /jquery.min.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:55:02 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:55:02 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:55:02 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:55:03 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:55:03 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:55:03 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:55:03 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:55:03 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:55:03 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:55:03 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:55:03 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:56:25 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:56:25 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.8ms)
+  Rendered projects/design.html.erb within layouts/application (3.9ms)
+Compiled projects.css  (0ms)  (pid 2854)
+Compiled application.css  (11ms)  (pid 2854)
+  Rendered layouts/_menu.html.erb (1.2ms)
+Completed 200 OK in 54ms (Views: 53.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Served asset /application.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Served asset /projects.css - 200 OK (6ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:56:29 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:56:30 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:56:30 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:56:30 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:56:30 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:56:30 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:56:35 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:56:35 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/design.html.erb within layouts/application (1.1ms)
+Compiled projects.css  (0ms)  (pid 2854)
+Compiled application.css  (6ms)  (pid 2854)
+  Rendered layouts/_menu.html.erb (9.6ms)
+Completed 200 OK in 47ms (Views: 46.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (53ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:57:37 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (11ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/design.html.erb within layouts/application (1.0ms)
+Compiled projects.css  (0ms)  (pid 2854)
+Compiled application.css  (5ms)  (pid 2854)
+  Rendered layouts/_menu.html.erb (0.8ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /application.css - 304 Not Modified (32ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 16:58:30 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 16:58:31 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 16:58:31 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 16:58:31 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 16:58:31 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 16:58:31 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 16:58:52 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 16:58:53 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-22 17:00:07 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 22ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /master.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:00:08 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.5ms)
+  Rendered projects/design.html.erb within layouts/application (1.4ms)
+  Rendered layouts/_menu.html.erb (7.6ms)
+Completed 200 OK in 110ms (Views: 108.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Served asset /home.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:01:10 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:01:11 +1200
+Served asset /web-banner.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:01:11 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:01:11 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:01:11 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:01:11 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 17:05:25 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 17:05:25 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (12ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (1.0ms)
+  Rendered projects/design.html.erb within layouts/application (1.5ms)
+Compiled projects.css  (0ms)  (pid 2854)
+Compiled application.css  (22ms)  (pid 2854)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 80ms (Views: 77.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Served asset /application.css - 304 Not Modified (57ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Served asset /home.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Served asset /jquery.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:06:11 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:06:12 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:06:12 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:06:12 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:06:12 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:06:12 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 17:06:13 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 17:06:13 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 11ms (Views: 11.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:09:16 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:09:17 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:09:17 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:09:17 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (17.2ms)
+  Rendered projects/design.html.erb within layouts/application (17.9ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 44ms (Views: 43.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Served asset /jquery.min.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:18 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:09:19 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:09:19 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:09:19 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:09:19 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (10ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:09:19 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 17:09:21 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 17:09:21 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/illiustration" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Processing by ProjectsController#illiustration as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/illiustration.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:22 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:09:23 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:09:23 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:09:23 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:09:23 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:09:23 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/miscellaneous" for 127.0.0.1 at 2012-07-22 17:09:25 +1200
+Processing by ProjectsController#miscellaneous as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/miscellaneous.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 20ms (Views: 18.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:25 +1200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:25 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:25 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:25 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /jquery.min.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:09:26 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/published" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Processing by ProjectsController#published as HTML
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.4ms)
+  Rendered projects/published.html.erb within layouts/application (1.0ms)
+  Rendered layouts/_menu.html.erb (1.6ms)
+Completed 200 OK in 22ms (Views: 13.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Served asset /application.css - 304 Not Modified (24ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:28 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:09:29 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:09:29 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:09:29 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:09:29 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:09:29 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/_project.html.erb (0.3ms)
+  Rendered projects/attic.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-22 17:09:31 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-22 17:09:37 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-22 17:09:37 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-07-24 12:56:05 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 25ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-24 12:56:06 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-07-24 12:56:08 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_project.html.erb (0.9ms)
+  Rendered projects/design.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_menu.html.erb (61.3ms)
+Completed 200 OK in 97ms (Views: 96.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /application.css - 304 Not Modified (30ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-07-24 12:56:09 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-07-24 12:56:14 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-07-24 12:56:14 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)

@@ -1,5 +1,10 @@
 Raichu::Application.routes.draw do
-  resources :projects
+  
+  match 'design' => 'projects#design'
+  match 'illiustration' => 'projects#illiustration'
+  match 'miscellaneous' => 'projects#miscellaneous'
+  match 'published' => 'projects#published'
+  match 'attic' => 'projects#attic'
 
   get "home/index"
 

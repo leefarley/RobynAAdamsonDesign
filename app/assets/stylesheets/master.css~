@@ -39,13 +39,14 @@
 }
 
 #body .menu ul li{
-	height: 60px;
+	height: 63px;
 	background-color: #404041;
 	text-transform:uppercase;
 	text-align: center;
 	margin-left: 0px;
 	line-height: 4.2em;
 }
+#body .menu ul li a{color:#fff; text-decoration:none;}
 
 #body .menu ul li.selected{
 	background-color: #005F72;

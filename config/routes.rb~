@@ -1,6 +1,11 @@
 Raichu::Application.routes.draw do
   
-  match "projects" => 'projects#index'
+  match 'design' => 'projects#design'
+  match 'illiustration' => 'projects#illiustration'
+  match 'attic' => 'projects#attic'
+  match 'attic' => 'projects#attic'
+  match 'attic' => 'projects#attic'
+
   get "home/index"
 
   # The priority is based upon order of creation:
