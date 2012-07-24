@@ -19,7 +19,7 @@
 			
 			<%= yield %>
 		</div>
-		
+		<div class="clear" ></div>
 		<hr id="projectrule" />
 		<div id="footer">
 		</div>
