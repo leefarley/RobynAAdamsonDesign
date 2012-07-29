@@ -1,25 +1,28 @@
 class CreateProjects < ActiveRecord::Migration
   def self.up
     create_table :projects do |t|
-	  t.string :title, :null => false
-	  t.string :client, :null => false
-	  t.string :date_added, :null => false
+  	  t.string :title, :null => false
+  	  t.string :client, :null => false
+  	  t.string :date_added, :null => false
       t.text :brief, :null => false
       t.text :solution, :null => false
       t.text :outcome, :null => false
-      t.boolean :feature , :null => false
-      t.integer :project_type , :null => false
+      t.boolean :is_featured ,:default => false, :null => false
+      t.boolean :is_published ,:default => false, :null => false
+      t.integer :project_type ,:default => 0, :null => false
       t.timestamps
     end
     
-    Project.create(:title => 'test project',
-                :client => 'test client',
-                :date_added => Time.now ,
-                :brief => 'password',
-                :solution => 'password',
-                :outcome => 'text',
-                :feature => 'text',
-                :project_type => 0)
+    Project.create(:title => "Winter Warmer Pack",:client => "Red Cross",:date_added => "2012",:brief => "password",:solution => "password",:outcome => "text",:is_featured => true,:is_published => false,:project_type => "0")
+    Project.create(:title => "Various",:client => "IHC",:date_added => "2012",:brief => "password",:solution => "password",:outcome => "text",:is_featured => false,:is_published => false,:project_type => "0") 
+	  Project.create(:title => "Journeys In National Parks",:client => "Natural History New Zealand",:date_added => "2011",:brief => "To design a DVD menu for NHNZ's 25th Anniversary of Journeys In National Parks. Scans of old projector slides were provided to use as the central image.",:solution => "The koru slide was selected for its curved shapes which lended itself well to the NHNZ DVD template.",:outcome => "Manager Caroline Cook was delighted with the final DVD menu She asked for several more slides to be cleaned up for use on the DVD slick. Journeys In National Parks in now on sale at the NHNZ website and Marbecks stores.",:is_featured =>false,:is_published => false,:project_type => 0)
+    Project.create(:title => "Greenscape Pop Up Covers & Growhouses",:client => "Highland Distributors",:date_added => "2011", :brief => "To develop the company's existing template for their range of pop up covers and growhouses.",:solution => "while I was given clear specifications I had to convince the client I was capable of creating two templates that could be used across multiple dimensions, and subtley photoshop the images to draw maximum attention.",:outcome => "by keeping in constant contact with the client throughout the design process I have succeeded in securing future work with the studio and trust sales will go well at the Warehouse and Mitre 10.",:is_featured => false,:is_published => false,:project_type => 0)
+    Project.create(:title => "Peggydale",:client => "Peggydale",:date_added => "2011",:brief => "To continue Leanne Preston's rebrand of Peggydale cafe and giftshop. The rebrand includes a new logo for business cards, gift bags,  and road sign.",:solution => "the logo has incorporated themes of rural life, tourism and high quality fashion. The final logo features a mannaquin encircled in number eight wire in rich, warm colours so as can be seen on the road sign in the country.",:outcome => "Owners Mervyn and Alison are very excited about their new look and hope visitors stopping by will feel the same.",:is_featured => false,:is_published => false,:project_type => 0)
+    Project.create(:title => "Brochures and Advertisements",:client => "FIEA",:date_added => "2011",:brief => "To follow and further adapt the style and templates of each event in order to design cohesive brochures and advertisements for web and print.",:solution => "I have raised the expectations of the FIEA's visual look. The advertisements certainly stand out amongst magazine pages. Brent Apthorp of the Dunedin branch said the Wood Preservation cover was the best one they have had in the past ten years.",:outcome => "",:is_featured => false,:is_published => false,:project_type => 0)
+    Project.create(:title => "Micro-Archtecture,Student Projects and Simple Retrofits",:client => "Tim Bishop, SHAC",:date_added => "2011",:brief => "To design a poster that would attract eco-conscious people in the 18 - 35 year age bracket to attend this symposium.",:solution => "A clean, minimalistic poster using an image supplied that illustrates the beauty of Micro-Architecture. This style works with  the Micro-Architecture blog.",:outcome => " The poster attracted a small amount of people and had a a great time. Since doing this poster Tim has had me continue edtiting photos and preparing them for the Micro-Architecture blog.",:is_featured => false,:is_published => false,:project_type => 0)
+ Project.create(:title => "H Block 6th Floor Foyer Graphics",:client => "Otago Polytechnic's School of Midwifery, Social Services and Massage Clinic",:date_added => "2010",:brief => "In teams of two create a series of environmental graphics that reflect the learning environment of each floor of H block at Otago Polytechnic. Alice Berry and I worked on the 6th floor, which has the School of Midwifery, Social Services and the Massage Clinic.",:solution => " Four illustrations were hand drawn and pentooled in Adobe Illustrator for the institute's Roland vinyl printer. These images reflect the calm learning environment and support the developing wayfinding system and existing water fountain and fire hose.",:outcome => "the students and staff of the School of Midwifery, the School of Social Services and the Massage Clinic were all very excited to see their newly decorated floor. These images say that students here learn to make connections with their head and their hands.",:is_featured => false,:is_published => false,:project_type => 1)
+ Project.create(:title => "FAR 2 kwik",:client => "self directed",:date_added => "2010",:brief => "To create a series of four images based on Fernando Sorrentino's The Ushuaia Rabbit.",:solution => "To explore and develop new methods of illustration that capture the energy and emotion in this short story.",:outcome => "four illustrations were created using a mix of watercolour, indian ink, chalk and contae and composited in Adobe Photoshop. While the muted colour palette has a sense of melancholy, it also makes the rabbit's plight even sweeter.",:is_featured => true,:is_published => false,:project_type => 1)
+ Project.create(:title => "Logo, Stamp and Interpretive Panel",:client => "Historic Iona Church Restoration Trust",:date_added => "2010",:brief => "To design a logo and an interpretive panel for the Historic Iona Church Restoration Trust.",:solution => "Develop exciting panels to encourage public awareness. Text was developed and photographs were taken of the historic church. These were used in the design of the interpretive panel to be displayed in Port Chalmers.",:outcome => "These panels have been printed on permanent materials for display at both Iona Church and the Public Library at Port Chalmers. The trust use the letterhead and stamp and are very happy with the identity and communication outcomes.",:is_featured => false,:is_published => true,:project_type => 0)
   end
   
   def self.down

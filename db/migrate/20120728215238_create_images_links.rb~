@@ -1,0 +1,9 @@
+lass CreateImagesLinks < ActiveRecord::Migration
+  def self.up
+    create_table :users do |t|
+    end
+  end
+
+  def down
+  end
+end

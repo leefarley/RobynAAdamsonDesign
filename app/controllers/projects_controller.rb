@@ -1,69 +1,54 @@
 class ProjectsController < ApplicationController
+
+
   # GET /design
   def design
-    @project = Project.find(1)
-
+    @projects = Project.where(:is_featured => true,:project_type => 0)
+    @project = @projects.first()
     respond_to do |format|
       format.html # design.html.erb
-      format.json { render json: @project }
     end
   end
   
   # GET /illiustration
   def illiustration
-    @project = Project.find(1)
-
+    @projects = Project.where(:is_featured => true, :project_type => 1)
+    @project = @projects.first()
     respond_to do |format|
       format.html # illiustration.html.erb
-      format.json { render json: @project }
     end
   end
   
   # GET /miscellaneous
   def miscellaneous
-    @project = Project.find(1)
-
+    @projects = Project.where(:is_featured => true, :project_type => 2)
+    @project = @projects.first()
     respond_to do |format|
       format.html # miscellaneous.html.erb
-      format.json { render json: @project }
     end
   end
   
   # GET /published
   def published
-    @project = Project.find(1)
-
+    @projects = Project.where(:is_published => true)
+    @project = @projects.first()
     respond_to do |format|
       format.html # published.html.erb
-      format.json { render json: @projects }
     end
   end
     # GET /attic
   def attic
-    @project = Project.find(1)
-
+    @projects = Project.all
+    @project = @projects.first()
     respond_to do |format|
       format.html # attic.html.erb
-      format.json { render json: @project }
     end
   end
-
-
 
   # GET /projects/1.json
   def show
     @project = Project.find(params[:id])
-
-    respond_to do |format|
-      format.json { render json: @project }
-    end
   end
-
-
-
-
-
-
 
   # GET /projects/new
   # GET /projects/new.json

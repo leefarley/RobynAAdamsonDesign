@@ -6,6 +6,8 @@ Raichu::Application.routes.draw do
   match 'published' => 'projects#published'
   match 'attic' => 'projects#attic'
 
+  match 'projects/show/:id' => 'projects#show', :as => :project
+
   get "home/index"
 
   # The priority is based upon order of creation:
