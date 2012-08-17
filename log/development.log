@@ -44907,3 +44907,18 @@ AWS::S3::Errors::RequestTimeTooSkewed (The difference between the request time a
   Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.2ms)
   Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
   Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.6ms)
+
+
+Started GET "/admin/new" for 127.0.0.1 at 2012-08-17 15:12:08 +1200
+Processing by AdminController#new as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `has_attached_file' for #<Class:0x90eb5b0>):
+  app/models/project.rb:19:in `<class:Project>'
+  app/models/project.rb:1:in `<top (required)>'
+  app/controllers/admin_controller.rb:10:in `new'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.2ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (74.6ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (96.5ms)
