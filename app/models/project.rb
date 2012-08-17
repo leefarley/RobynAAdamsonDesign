@@ -19,5 +19,5 @@ class Project < ActiveRecord::Base
   has_attached_file :thumbnail,:storage => :s3,
         :s3_credentials => {:access_key_id => 'AKIAIO4KDFY5CJEKTYBQ',:secret_access_key => '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'},
   		:bucket => 'robynaadamsondesign',
-  		:path => ":attachment_file_name.:attachment_content_type"
+  		:path => ":attachment/:id.:extension"
 end
