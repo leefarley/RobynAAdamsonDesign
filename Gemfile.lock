@@ -139,7 +139,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   faker
   jquery-rails
-  paperclip (= 2.3.3)
+  paperclip
   pg
   rails (= 3.2.6)
   rspec
