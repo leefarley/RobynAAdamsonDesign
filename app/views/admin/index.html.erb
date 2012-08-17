@@ -1,0 +1,16 @@
+<%= link_to "New project", admin_new_path %>
+<table>
+	<tr>
+		<th>Title</th>
+	</tr>
+	<% @projects.each do |project| %>
+		<tr>
+			<td>
+				<%= project.title %>
+			</td>
+			<td>
+				| <%= link_to "edit", admin_edit_path(:id => project.id) %> | <%= link_to "delete" %>
+			</td>
+		</tr>
+	<% end %>
+</table>

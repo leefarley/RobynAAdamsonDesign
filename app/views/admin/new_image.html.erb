@@ -1,0 +1,9 @@
+<%= form_for(@image, :url => admin_create_image_path, :html => {:multipart => true }) do |f| %>
+<table>
+	<td><%= f.file_field :photo %></td>
+	<td></td>
+</table>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
