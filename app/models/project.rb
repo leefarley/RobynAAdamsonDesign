@@ -18,7 +18,6 @@ class Project < ActiveRecord::Base
 
   has_attached_file :thumbnail,:styles => {:thumb  => "100x100"},
   		:storage => :s3,
-        :s3_credentials => {:access_key_id => 'AKIAIO4KDFY5CJEKTYBQ',:secret_access_key => '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'},
-  		:bucket => 'robynaadamsondesign',
+        :s3_credentials => {:bucket => 'robynaadamsondesign',:access_key_id => 'AKIAIO4KDFY5CJEKTYBQ',:secret_access_key => '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'},
   		:path => ':attachment/:id/:style.:extension'
 end
