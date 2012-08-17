@@ -15,8 +15,9 @@ class Project < ActiveRecord::Base
 	:thumbnail_file_size,
 	:thumbnail_updated_at
 	
+	has_many :images
 
-  has_attached_file :thumbnail,
+    has_attached_file :thumbnail,
   		:storage => :s3,
   		:url => ":s3_domain_url",
         :s3_credentials => {:bucket => 'robynaadamsondesign',:access_key_id => 'AKIAIO4KDFY5CJEKTYBQ',:secret_access_key => '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'},

@@ -18,7 +18,7 @@ class AdminController < ApplicationController
       @project.date_added = Time.now.year 
     	respond_to do |format|
       		if @project.save
-        		format.html { redirect_to admin_path, notice: 'Project was successfully created.' }
+        		
         		format.json { render json: @project, status: :created, location: @project }
       		else
         		format.html { render action: "new" }
@@ -57,6 +57,22 @@ class AdminController < ApplicationController
       format.html { redirect_to projects_url }
       format.json { head :no_content }
     end
+  end
+
+  def images
+    @images = Image.where(:project_id => params[:project_id])
+    @image  = Image.new
+    @image.project_id = params[:project_id]
+  end
+
+  def create_image
+    @image = Image.new(params[:image])
+    if @image.save
+      redirect_to images_path(:project_id => params[:project_id])
+    else
+      redirect_to images_path(:project_id => params[:project_id])
+    end
+
   end
 
 end

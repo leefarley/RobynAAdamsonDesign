@@ -8,10 +8,10 @@ Raichu::Application.routes.draw do
 
   match 'projects/show/:id' => 'projects#show', :as => :project
   match 'admin' => 'admin#index', :as => :admin, :via => :get
-  get 'admin/new'
+  get   'admin/new'
   post  'admin/create'
-  match 'admin/newimage/:project_id' => 'admin#newimage', :as => :new_image, :via => :get
-  match 'admin/create_image'
+  match 'admin/:project_id/images' => 'admin#images', :as => :images, :via => :get
+  match 'admin/:project_id/images/create' => 'admin#create_image', :as => :create_image, :via => :post
   match 'admin/:id/edit'   => 'admin#edit'  , :as => :admin_edit,:via => :get
   match 'admin/:id/update' => 'admin#update', :as => :admin_update,:via => :put
   get   'home/index'
