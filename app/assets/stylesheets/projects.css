@@ -19,6 +19,7 @@
     line-height: 2.6em;
     border-bottom: 1px solid #303031;
     border-top: 1px solid #303031;
+    cursor: pointer;
 }
 #tabs .centertab{border-left: 1px solid black;border-right: 1px solid #303031;}
 #tabs .tab.selected{background-color: #005F72;}
