@@ -19,18 +19,18 @@
 				</div>
 			</div>
 			<div id="tabs">
-				<div class="tab" id="selected">brief</div>
-				<div class="tab centertab">Solution</div>
-				<div class="tab" >Outcome</div>
+				<div class="tab brief selected">brief</div>
+				<div class="tab solution centertab">Solution</div>
+				<div class="tab outcome" >Outcome</div>
 			</div>
 			<div class="projectinfo">
-				<div class="projectcontent">
+				<div class="projectcontent" id='brief'>
 				 	<%= @project.brief %>
 				</div>
-				<div class="projectcontent">
+				<div class="projectcontent" id='solution'>
 				 	<%= @project.solution %>
 				</div>
-				<div class="projectcontent">
+				<div class="projectcontent" id='outcome'>
 				 	<%= @project.outcome %>
 				</div>
 			</div>
@@ -49,12 +49,32 @@
     frame_gap:0
 	});
 
-$(document).ready(function() {
 	var tabs = $(".tab");
-	$(".tab").click(function() {
+	$('#brief').show();
+	$('#solution').hide();
+	$('#outcome').hide();
+
+	$(".brief").click(function() {
 		tabs.removeClass('selected');
 		$(this).addClass('selected');
+		$('#brief').show();
+		$('#solution').hide();
+		$('#outcome').hide();
 	});
-}); 
+
+	$(".solution").click(function() {
+		tabs.removeClass('selected');
+		$(this).addClass('selected');
+		$('#brief').hide();
+		$('#solution').show();
+		$('#outcome').hide();
+	});
+	$(".outcome").click(function() {
+		tabs.removeClass('selected');
+		$(this).addClass('selected');
+		$('#brief').hide();
+		$('#solution').hide();
+		$('#outcome').show();
+	});
 </script>
 
