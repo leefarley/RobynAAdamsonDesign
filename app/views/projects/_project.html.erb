@@ -1,10 +1,9 @@
 <div class="content">
 		<div id="projectimageviewer"> 
 			<div id="myGallery">
-			<li><%= image_tag "placeholder-image.png" %></li>
-			<li><%= image_tag "placeholder-image2.png" %></li>
-			<li><%= image_tag "placeholder-image3.png" %></li>
-			<li><%= image_tag "placeholder-image4.png" %></li>
+			<% @project.images.each do |image| %>
+				<li><%= image_tag image.image %></li>
+			<% end %>
 			</div>
 		</div>
 		<div id="projectinfopane">
