@@ -61909,3 +61909,4 @@ Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
 
 Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 11:11:29 +1200
 Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
