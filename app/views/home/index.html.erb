@@ -20,16 +20,20 @@
 </div>
 
 <script>
-	$('#myGallery').galleryView({
-    transition_speed: 5000,
-    show_filmstrip: false,
-    panel_animation: 'slide',
-    show_infobar: false,
-    panel_height: 445,
-    panel_width: 245,
-    frame_gap:0,
-    autoplay: true,
-    transition_interval:1000,
-    show_panel_nav: false
+	$(document).ready(function() {
+  		$('#myGallery').galleryView({
+		    transition_speed: 5000,
+		    show_filmstrip: false,
+		    panel_animation: 'slide',
+		    show_infobar: false,
+		    panel_height: 445,
+		    panel_width: 245,
+		    frame_gap:0,
+		    autoplay: true,
+		    transition_interval:1000,
+		    show_panel_nav: false
+			});
 	});
+	
+
 </script>
