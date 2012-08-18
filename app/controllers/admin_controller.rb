@@ -18,7 +18,7 @@ class AdminController < ApplicationController
       @project.date_added = Time.now.year 
     	respond_to do |format|
       		if project = @project.save
-        		format.html { redirect_to images_path(:project_id => project.id), notice: 'Project was successfully updated.' }
+        		format.html { redirect_to admin_path, notice: 'Project was successfully updated.' }
         		format.json { render json: @project, status: :created, location: @project }
       		else
         		format.html { render action: "new" }
