@@ -57040,3 +57040,3812 @@ Served asset /themes/light/panel-next-big.png - 200 OK (40ms)
 
 Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 06:08:08 +1200
 Served asset /themes/light/panel-prev-big.png - 200 OK (8ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 06:30:10 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (1.5ms)
+  [1m[36mProject Load (11.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (12.2ms)
+  Rendered projects/design.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 93ms (Views: 69.7ms | ActiveRecord: 11.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:10 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:10 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /rails.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /application.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 06:30:11 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:30:12 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 06:30:12 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 06:30:12 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (1.4ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (15.1ms)
+  Rendered projects/design.html.erb within layouts/application (18.2ms)
+  Rendered layouts/_menu.html.erb (1.3ms)
+Completed 200 OK in 53ms (Views: 51.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /jquery.min.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 06:30:34 +1200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:35 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:35 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:35 +1200
+Served asset /home.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:35 +1200
+Served asset /projects.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 06:30:35 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:30:35 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 06:30:35 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:30:35 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.3ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 06:30:40 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 06:30:40 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects/show/1" for 127.0.0.1 at 2012-08-19 06:30:44 +1200
+Processing by ProjectsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (4.5ms)
+  Rendered projects/show.js.erb (5.6ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/projects/show/1" for 127.0.0.1 at 2012-08-19 06:30:45 +1200
+Processing by ProjectsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (1.4ms)
+  Rendered projects/show.js.erb (2.9ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 06:31:11 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (11.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (1.7ms)
+  Rendered projects/design.html.erb within layouts/application (13.9ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 36ms (Views: 34.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 06:31:11 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 06:31:11 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /master.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:31:12 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 06:33:21 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (4.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (1.5ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (12.6ms)
+  Rendered projects/design.html.erb within layouts/application (15.5ms)
+Compiled projects.css  (0ms)  (pid 2685)
+Compiled application.css  (6ms)  (pid 2685)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 111ms (Views: 99.4ms | ActiveRecord: 4.3ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 06:33:21 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 06:33:21 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 06:33:21 +1200
+Served asset /rails.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 06:33:21 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 06:33:21 +1200
+Served asset /application.js - 304 Not Modified (70ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 06:33:21 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 06:33:21 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+Served asset /projects.css - 200 OK (9ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (7.1ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:33:22 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 06:33:27 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 06:33:27 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (0.9ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (10.7ms)
+  Rendered projects/design.html.erb within layouts/application (12.6ms)
+Compiled projects.css  (0ms)  (pid 2685)
+Compiled application.css  (24ms)  (pid 2685)
+  Rendered layouts/_menu.html.erb (1.3ms)
+Completed 200 OK in 152ms (Views: 150.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /application.css - 304 Not Modified (35ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /projects.css - 200 OK (13ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:34:45 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 06:34:46 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:34:46 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 06:34:50 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 06:34:50 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (9ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 06:35:14 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (11.3ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (1.4ms)
+  Rendered projects/design.html.erb within layouts/application (17.7ms)
+Compiled projects.css  (0ms)  (pid 2685)
+Compiled application.css  (9ms)  (pid 2685)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 112ms (Views: 110.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /jquery.min.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /application.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /home.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /projects.css - 200 OK (7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.3ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:35:15 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 06:35:18 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 06:35:18 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (15.4ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (1.8ms)
+  Rendered projects/design.html.erb within layouts/application (18.9ms)
+Compiled projects.css  (1ms)  (pid 2685)
+Compiled application.css  (4ms)  (pid 2685)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 165ms (Views: 154.8ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /projects.css - 200 OK (10ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:10 +1200
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 06:36:11 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:36:11 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.5ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 06:36:17 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 06:36:17 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 06:36:43 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (1.1ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (1.6ms)
+  Rendered projects/design.html.erb within layouts/application (4.0ms)
+Compiled projects.css  (0ms)  (pid 2685)
+Compiled application.css  (5ms)  (pid 2685)
+  Rendered layouts/_menu.html.erb (1.3ms)
+Completed 200 OK in 111ms (Views: 109.0ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /application.css - 304 Not Modified (74ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /projects.css - 200 OK (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 06:36:44 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 06:36:49 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 06:36:49 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:10:39 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (56.8ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (2.2ms)
+  Rendered projects/design.html.erb within layouts/application (62.4ms)
+  Rendered layouts/_menu.html.erb (0.7ms)
+Completed 200 OK in 88ms (Views: 74.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:10:39 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:10:39 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (31ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:10:40 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:10:41 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:10:45 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:10:45 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (1.5ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (7.2ms)
+  Rendered projects/design.html.erb within layouts/application (11.3ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:11:14 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:11:15 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:11:15 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:11:19 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:11:19 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects/show/1" for 127.0.0.1 at 2012-08-19 09:11:23 +1200
+Processing by ProjectsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (1.7ms)
+  Rendered projects/show.js.erb (3.9ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/projects/show/1" for 127.0.0.1 at 2012-08-19 09:11:23 +1200
+Processing by ProjectsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (0.9ms)
+  Rendered projects/show.js.erb (9.7ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (6.4ms)
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (0.9ms)
+  Rendered projects/design.html.erb within layouts/application (16.2ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 39ms (Views: 37.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /jquery.min.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:13:35 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:13:36 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:13:37 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:13:37 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:13:45 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (1.0ms)
+  [1m[35mProject Load (5.0ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (11.9ms)
+  Rendered projects/design.html.erb within layouts/application (14.0ms)
+  Rendered layouts/_menu.html.erb (2.7ms)
+Completed 200 OK in 40ms (Views: 30.2ms | ActiveRecord: 5.4ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (66ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:13:46 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:14:09 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (1.5ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (2.1ms)
+  Rendered projects/design.html.erb within layouts/application (12.3ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /rails.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /admin.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /projects.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:14:10 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:14:11 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:14:36 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (1.9ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (2.6ms)
+  Rendered projects/design.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_menu.html.erb (7.2ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /jquery.min.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /rails.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /admin.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:14:37 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:14:38 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:14:38 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:15:17 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:15:17 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:15:17 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (0.7ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (1.5ms)
+  Rendered projects/design.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 41ms (Views: 39.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /jquery.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:15:18 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:15:19 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:15:20 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:15:20 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:19:01 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (9.8ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (1.6ms)
+  [1m[35mProject Load (12.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (13.8ms)
+  Rendered projects/design.html.erb within layouts/application (16.7ms)
+  Rendered layouts/_menu.html.erb (1.4ms)
+Completed 200 OK in 81ms (Views: 55.8ms | ActiveRecord: 22.2ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:19:01 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:19:01 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:19:01 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:19:01 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:19:01 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:19:01 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.2ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:19:02 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (12.2ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (1.5ms)
+  Rendered projects/design.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:03 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:22:04 +1200
+Served asset /web-banner.png - 304 Not Modified (2ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:22:04 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:22:08 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.1ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (0.7ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (1.3ms)
+  Rendered projects/design.html.erb within layouts/application (3.3ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 75ms (Views: 73.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:08 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:08 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:08 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:08 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:08 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:08 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:22:08 +1200
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:22:09 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:22:10 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:22:17 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:22:17 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/projects/show/1" for 127.0.0.1 at 2012-08-19 09:22:18 +1200
+Processing by ProjectsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (1.5ms)
+  Rendered projects/show.js.erb (2.3ms)
+Completed 200 OK in 21ms (Views: 19.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects/show/1" for 127.0.0.1 at 2012-08-19 09:22:19 +1200
+Processing by ProjectsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (0.8ms)
+  Rendered projects/show.js.erb (1.5ms)
+Completed 200 OK in 17ms (Views: 15.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:25:11 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (1.8ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (1.6ms)
+  Rendered projects/design.html.erb within layouts/application (14.4ms)
+  Rendered layouts/_menu.html.erb (1.6ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /jquery.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:25:12 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:25:13 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (6.9ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (11.2ms)
+  Rendered projects/design.html.erb within layouts/application (20.0ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 42ms (Views: 40.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /jquery.min.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /application.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /master.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:25:28 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:25:29 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/projects/show/1" for 127.0.0.1 at 2012-08-19 09:25:35 +1200
+Processing by ProjectsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (9.7ms)
+  Rendered projects/show.js.erb (9.9ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/projects/show/1" for 127.0.0.1 at 2012-08-19 09:25:35 +1200
+Processing by ProjectsController#show as JS
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (1.5ms)
+  Rendered projects/show.js.erb (3.2ms)
+Completed 200 OK in 19ms (Views: 18.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /jquery.min.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /master.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:42 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:25:43 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-08-19 09:25:43 +1200
+Served asset /home-graphic.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-08-19 09:25:43 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-08-19 09:25:43 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-08-19 09:25:43 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-08-19 09:25:43 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (5.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (3.0ms)
+  Rendered projects/design.html.erb within layouts/application (18.9ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 53ms (Views: 45.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /jquery.min.js - 304 Not Modified (29ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:25:49 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:25:50 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:25:50 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:27:40 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (10.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (11.6ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (1.5ms)
+  Rendered projects/design.html.erb within layouts/application (14.6ms)
+  Rendered layouts/_menu.html.erb (1.3ms)
+Completed 200 OK in 40ms (Views: 28.9ms | ActiveRecord: 10.4ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:40 +1200
+Served asset /jquery.min.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:40 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:40 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:40 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:40 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /home.css - 304 Not Modified (102ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:27:41 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:27:42 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:27:44 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:27:44 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:27:52 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.7ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (1.0ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (3.7ms)
+  Rendered projects/design.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_menu.html.erb (0.6ms)
+Completed 200 OK in 54ms (Views: 52.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:52 +1200
+Served asset /jquery.min.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:52 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:52 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:52 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:52 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:52 +1200
+Served asset /rails.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:27:52 +1200
+Served asset /application.js - 304 Not Modified (11ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.1ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:27:53 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:27:57 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:27:57 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-19 09:28:48 +1200
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_menu.html.erb (1.5ms)
+Completed 200 OK in 87ms (Views: 85.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /rails.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (12ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /jquery.min.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /application.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /application.css - 304 Not Modified (47ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /admin.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /home.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /master.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /projects.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /web-banner.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/home-graphic.png" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /home-graphic.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /placeholder-image.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-08-19 09:28:49 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (3ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 09:46:39 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (5.5ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (140.1ms)
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (3.8ms)
+  Rendered projects/design.html.erb within layouts/application (152.1ms)
+  Rendered layouts/_menu.html.erb (7.7ms)
+Completed 200 OK in 807ms (Views: 180.6ms | ActiveRecord: 42.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 09:46:40 +1200
+Served asset /jquery.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 09:46:40 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 09:46:40 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 09:46:40 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 09:46:40 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /application.css - 304 Not Modified (59ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /projects.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 09:46:41 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 09:46:42 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 09:46:46 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (12ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 09:46:46 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (10ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 10:10:08 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (7.6ms)
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (3.9ms)
+  Rendered projects/design.html.erb within layouts/application (14.1ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 29ms (Views: 26.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 10:10:09 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 10:10:10 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 10:10:33 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 10:10:34 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 10:10:41 +1200
+Processing by ProjectsController#design as HTML
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1[0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 1
+  Rendered projects/_project.html.erb (5.1ms)
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0[0m
+  Rendered projects/_projectList.html.erb (9.7ms)
+  Rendered projects/design.html.erb within layouts/application (16.1ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 68ms (Views: 61.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:41 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:41 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:41 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /home.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 10:10:42 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 10:10:43 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 10:10:43 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 10:10:47 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 10:10:47 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/design" for 127.0.0.1 at 2012-08-19 10:11:31 +1200
+Processing by ProjectsController#design as HTML
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0 LIMIT 1
+  [1m[36mImage Load (0.2ms)[0m  [1mSELECT "images".* FROM "images" WHERE "images"."project_id" = 1[0m
+  Rendered projects/_project.html.erb (1.7ms)
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."is_featured" = 't' AND "projects"."project_type" = 0
+  Rendered projects/_projectList.html.erb (9.1ms)
+  Rendered projects/design.html.erb within layouts/application (20.7ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 36ms (Views: 33.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /application.js - 304 Not Modified (19ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 10:11:32 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.6ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 10:11:33 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-19 10:11:33 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-19 10:11:34 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-19 10:11:34 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)

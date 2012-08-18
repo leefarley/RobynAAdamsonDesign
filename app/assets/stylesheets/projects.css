@@ -1,7 +1,7 @@
 #projectselected{position:relative;width:960px; height:445px;}
 #projectimageviewer{position:relative;width:720px; height:445px;float:left;}
 #projectinfopane{position:relative;width:246px; height:445px;top:-445px;float:right;background-color: #404041;}
-#projectinfo{color: #fff;margin:15px 15px 0 15px;}
+.projectinfo{color: #fff;margin:15px 15px 0 15px;}
 #projecttitle{}
 #projectclient{margin-top:5px;}
 #projectinforule{}
@@ -17,9 +17,10 @@
     float:left;
     text-align: center;
     line-height: 2.6em;
-    border-bottom: 1px solid #303031;;
+    border-bottom: 1px solid #303031;
+    border-top: 1px solid #303031;
 }
-#tabs .centertab{border-left: 1px solid black;border-left: 1px solid #303031;}
+#tabs .centertab{border-left: 1px solid black;border-right: 1px solid #303031;}
 #tabs .tab#selected{background-color: #005F72;}
 
 

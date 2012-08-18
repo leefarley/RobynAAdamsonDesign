@@ -7,12 +7,7 @@
 			</div>
 		</div>
 		<div id="projectinfopane">
-			<div id="tabs">
-				<div class="tab" >brief</div>
-					<div class="tab centertab">Solution</div>
-					<div class="tab" id="selected">Outcome</div>
-			</div>
-			<div id="projectinfo">
+			<div class="projectinfo">
 				<div id="projecttitle">
 					<b><%= @project.title %></b>
 				</div>
@@ -22,7 +17,13 @@
 				<div id="projectyear">
 					<%= @project.date_added %>
 				</div>
-				<hr id="projectinforule">
+			</div>
+			<div id="tabs">
+				<div class="tab" id="selected">brief</div>
+				<div class="tab centertab">Solution</div>
+				<div class="tab" >Outcome</div>
+			</div>
+			<div class="projectinfo">
 				<div class="projectcontent">
 				 	<%= @project.brief %>
 				</div>
@@ -37,8 +38,7 @@
 </div>
 <div class="clear" ></div>
 
-
-<script>
+<script type="text/javascript">
 	$('#projectimageviewer').galleryView({
     transition_speed: 600,
     show_filmstrip: false,
@@ -48,5 +48,12 @@
     panel_width: 720,
     frame_gap:0
 	});
+	$(document).ready(function() {
+	var tabs = $(".tab");
+	$(".tab").click(function() {
+		tabs.removeClass('selected');
+		$(this).addClass('selected');
+	});
+});
 </script>
 
