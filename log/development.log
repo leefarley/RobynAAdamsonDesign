@@ -61986,3 +61986,528 @@ Migrating to AddProjects (20120818233835)
   [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
   [1m[35m (0.2ms)[0m  PRAGMA index_list("images")
   [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("projects")[0m
+
+
+Started GET "/admin/" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Processing by AdminController#index as HTML
+  [1m[36mProject Load (0.0ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  Rendered admin/index.html.erb within layouts/application (19.8ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 106ms (Views: 78.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 12:14:13 +1200
+Served asset /application.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 12:14:14 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 12:14:14 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 12:14:14 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 12:14:14 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 12:14:14 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 12:14:14 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 12:14:14 +1200
+Served asset /web-banner.png - 304 Not Modified (4ms)
+
+
+Started DELETE "/admin/2/delete" for 127.0.0.1 at 2012-08-19 12:14:19 +1200
+
+AbstractController::ActionNotFound (The action 'destory' could not be found for AdminController):
+  actionpack (3.2.6) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.6) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.6) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.6) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.6) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.6) lib/action_dispatch/routing/route_set.rb:600:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.1) lib/rack/etag.rb:23:in `call'
+  rack (1.4.1) lib/rack/conditionalget.rb:35:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:205:in `context'
+  rack (1.4.1) lib/rack/session/abstract/id.rb:200:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/cookies.rb:338:in `call'
+  activerecord (3.2.6) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `_run__492785922__call__407036404__callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.4ms)
+
+
+Started GET "/admin/" for 127.0.0.1 at 2012-08-19 12:15:48 +1200
+Processing by AdminController#index as HTML
+  [1m[35mProject Load (0.7ms)[0m  SELECT "projects".* FROM "projects" 
+  Rendered admin/index.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 82ms (Views: 28.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /application.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 12:15:49 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/admin/2" for 127.0.0.1 at 2012-08-19 12:15:53 +1200
+Processing by AdminController#delete as HTML
+  Parameters: {"authenticity_token"=>"m5KmMrKqqP7id+7O7uUNzA2UUQLE9hzKG6psD1MDogE=", "id"=>"2"}
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+[paperclip] Scheduling attachments for deletion.
+  [1m[36mSQL (0.8ms)[0m  [1mDELETE FROM "projects" WHERE "projects"."id" = ?[0m  [["id", 2]]
+[paperclip] Deleting attachments.
+  [1m[35m (30.3ms)[0m  commit transaction
+Completed 500 Internal Server Error in 94ms
+
+NameError (undefined local variable or method `projects_url' for #<AdminController:0xabe0244>):
+  app/controllers/admin_controller.rb:57:in `block (2 levels) in delete'
+  app/controllers/admin_controller.rb:56:in `delete'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (12.5ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.2ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-08-19 12:18:01 +1200
+Processing by AdminController#index as HTML
+  [1m[36mProject Load (1.1ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  Rendered admin/index.html.erb within layouts/application (14.5ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 90ms (Views: 60.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /jquery.min.js - 304 Not Modified (32ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /application.css - 304 Not Modified (34ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /master.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 12:18:02 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/admin/1" for 127.0.0.1 at 2012-08-19 12:18:05 +1200
+Processing by AdminController#delete as HTML
+  Parameters: {"authenticity_token"=>"m5KmMrKqqP7id+7O7uUNzA2UUQLE9hzKG6psD1MDogE=", "id"=>"1"}
+  [1m[35mProject Load (0.3ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "projects" WHERE "projects"."id" = ?  [["id", 1]]
+[paperclip] Deleting attachments.
+  [1m[36m (50.6ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 58ms (ActiveRecord: 51.3ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Processing by AdminController#index as HTML
+  [1m[35mProject Load (0.4ms)[0m  SELECT "projects".* FROM "projects" 
+  Rendered admin/index.html.erb within layouts/application (27.7ms)
+  Rendered layouts/_menu.html.erb (1.4ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /jquery.min.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (94ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 12:18:06 +1200
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 12:18:07 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/admin/3" for 127.0.0.1 at 2012-08-19 12:21:16 +1200
+Processing by AdminController#delete as HTML
+  Parameters: {"authenticity_token"=>"m5KmMrKqqP7id+7O7uUNzA2UUQLE9hzKG6psD1MDogE=", "id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+[paperclip] Scheduling attachments for deletion.
+  [1m[36mSQL (6.9ms)[0m  [1mDELETE FROM "projects" WHERE "projects"."id" = ?[0m  [["id", 3]]
+[paperclip] Deleting attachments.
+  [1m[35m (23.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 68ms (ActiveRecord: 31.6ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-08-19 12:21:16 +1200
+Processing by AdminController#index as HTML
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  Rendered admin/index.html.erb within layouts/application (48.2ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 78ms (Views: 68.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:16 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 12:21:17 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/admin/32" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Processing by AdminController#delete as HTML
+  Parameters: {"authenticity_token"=>"m5KmMrKqqP7id+7O7uUNzA2UUQLE9hzKG6psD1MDogE=", "id"=>"32"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects" WHERE "projects"."id" = ? LIMIT 1  [["id", "32"]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+[paperclip] Scheduling attachments for deletion.
+  [1m[35mSQL (3.5ms)[0m  DELETE FROM "projects" WHERE "projects"."id" = ?  [["id", 32]]
+[paperclip] Deleting attachments.
+  [1m[36m (16.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/admin
+Completed 302 Found in 30ms (ActiveRecord: 19.9ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Processing by AdminController#index as HTML
+  [1m[35mProject Load (0.4ms)[0m  SELECT "projects".* FROM "projects" 
+  Rendered admin/index.html.erb within layouts/application (32.5ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 102ms (Views: 99.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /application.css - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /master.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/web-banner.png" for 127.0.0.1 at 2012-08-19 12:21:23 +1200
+Served asset /web-banner.png - 304 Not Modified (0ms)

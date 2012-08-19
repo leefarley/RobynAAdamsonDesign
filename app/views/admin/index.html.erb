@@ -9,7 +9,7 @@
 				<%= project.title %>
 			</td>
 			<td>
-				<%= link_to "images", images_path(:project_id => project.id) %> | <%= link_to "edit", admin_edit_path(:id => project.id) %> | <%= link_to "delete" %>
+				<%= link_to "images", images_path(:project_id => project.id) %> | <%= link_to "edit", admin_edit_path(:id => project.id) %> | <%= link_to "delete", admin_delete_path(:id => project.id), method: :delete, data: { confirm: 'Are you sure?' } %>
 			</td>
 		</tr>
 	<% end %>

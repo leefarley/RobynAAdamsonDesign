@@ -14,6 +14,7 @@ Raichu::Application.routes.draw do
   match 'admin/:project_id/images/create' => 'admin#create_image', :as => :create_image, :via => :post
   match 'admin/:id/edit'   => 'admin#edit'  , :as => :admin_edit,:via => :get
   match 'admin/:id/update' => 'admin#update', :as => :admin_update,:via => :put
+  match 'admin/:id' => 'admin#delete', :as => :admin_delete, :via => :delete
   get   'home/index'
 
   # The priority is based upon order of creation:

@@ -8,7 +8,6 @@ class AdminController < ApplicationController
   # GET /projects/new.json
   def new
     @project = Project.new
-    #3.times { @project.images.build }
   end
 
   	# POST /projects
@@ -49,12 +48,12 @@ class AdminController < ApplicationController
 
   # DELETE /projects/1
   # DELETE /projects/1.json
-  def destroy
+  def delete
     @project = Project.find(params[:id])
     @project.destroy
 
     respond_to do |format|
-      format.html { redirect_to projects_url }
+      format.html { redirect_to admin_path }
       format.json { head :no_content }
     end
   end
