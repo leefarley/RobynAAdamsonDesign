@@ -11,7 +11,7 @@ class ProjectsController < ApplicationController
   end
   
   # GET /illiustration
-  def illiustration
+  def illustration
     @projects = Project.where(:is_featured => true, :project_type => 1)
     @project = @projects.first()
     respond_to do |format|

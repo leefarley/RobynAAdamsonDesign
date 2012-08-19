@@ -1,7 +1,7 @@
 Raichu::Application.routes.draw do
 
   match 'design' => 'projects#design'
-  match 'illiustration' => 'projects#illiustration'
+  match 'illustration' => 'projects#illustration'
   match 'miscellaneous' => 'projects#miscellaneous'
   match 'published' => 'projects#published'
   match 'attic' => 'projects#attic'
