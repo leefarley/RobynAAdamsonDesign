@@ -6,7 +6,7 @@
 				<%= image_tag image.image.url, :style => "width:100px;height:100px;" %>
 			</td>
 			<td>
-				<%= link_to "delete", delete_image_path(:image_id => @image.id), method: :delete, data: { confirm: 'Are you sure?' } %>
+				<%= link_to "delete", delete_image_path(:image_id => image.id), method: :delete, data: { confirm: 'Are you sure?' } %>
 			</td>
 		<% end %>
 	</tr>
