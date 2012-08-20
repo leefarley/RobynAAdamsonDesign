@@ -1,4 +1,4 @@
-<hr id="projectruleinner" />
+<hr id="projectruletop" />
 <div id="projectlist">
 	<% @projects.each_with_index do |project, i| %>
 		<% if (i % 10 != 0) %>
@@ -9,8 +9,8 @@
 		</div>
 	<% end %>
 </div>
-		<div class="clear" ></div>
-		<hr/>
+<div class="clear" ></div>
+<hr id="projectrulebottom" />
 <script>
 	$(".brief").live('click', function() {
 		$(".tab").removeClass('selected');

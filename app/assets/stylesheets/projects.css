@@ -31,24 +31,18 @@
   margin: 5px 0px 5px 0;
   float:left;
 }
-#projectlist {
-	width: 1100px;
-	margin: 0 auto;
-	min-height: 100px;
-}
-#projectlist a{;width: 90px;  height: 63px;}
+#projectlist {width: 1100px;min-height:73px;}
+#projectlist a{;width: 90px;height: 63px;}
 #projectlist a img{
 	opacity: 0.8;
- 
 	/*Transition*/
 	-webkit-transition: all 0.5s ease;
 	-moz-transition: all 0.5s ease;
 	-o-transition: all 0.5s ease;
- 
 	/*Reflection*/
 	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
 }
-.projectspacer{width: 22px;height: 63px;float:left;}
+.projectspacer{width:22px;height: 63px;float:left;margin }
 #projectlist a:hover{background-color: white; } 
 #projectlist img:hover {  
    opacity: 1;
