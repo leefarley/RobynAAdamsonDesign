@@ -42,7 +42,7 @@
 	/*Reflection*/
 	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
 }
-.projectspacer{width:22px;height: 63px;float:left;margin }
+.projectspacer{width:22px;height: 63px;float:left;margin:5px 0;}
 #projectlist a:hover{background-color: white; } 
 #projectlist img:hover {  
    opacity: 1;

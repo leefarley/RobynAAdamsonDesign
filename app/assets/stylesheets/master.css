@@ -12,6 +12,6 @@ body{background: url("bkgndTexture.png") 0 0 repeat;}
 #body .menu ul li.selected{background-color: #005F72;}
 #body .menu ul li.selected a:hover{background-color: #005F72;}
 #body .content{width:965px;height:445px;float:left;}
-.clear{	clear: both;}
+.clear{clear: both;}
 .projectrule{margin:32px 3px 11px 0;}
 #projectruletop{margin:16px 6px 11px 0px;}
