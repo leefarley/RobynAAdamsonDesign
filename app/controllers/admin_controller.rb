@@ -74,4 +74,10 @@ class AdminController < ApplicationController
 
   end
 
+  def delete_image
+    image = Image.find(params[:image_id])
+    @images = Image.where(:project_id => image.project_id)
+    redirect_to images_path(:project_id => image.project_id)
+  end
+
 end
