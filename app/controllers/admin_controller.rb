@@ -76,8 +76,13 @@ class AdminController < ApplicationController
 
   def delete_image
     image = Image.find(params[:image_id])
-    @images = Image.where(:project_id => image.project_id)
-    redirect_to images_path(:project_id => image.project_id)
+    project_id = image.project_id
+    image.destroy
+    @images = Image.where(:project_id => project_id)
+    respond_to do |format|
+      format.html { redirect_to images_path(:project_id => project_id), notice: 'Project was successfully updated.' }
+    end
+    
   end
 
 end

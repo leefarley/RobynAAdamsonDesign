@@ -15,7 +15,7 @@ class Project < ActiveRecord::Base
 	:thumbnail_file_size,
 	:thumbnail_updated_at
 	
-	has_many :images
+	has_many :images, :dependent => :destroy
 
     has_attached_file :thumbnail,
   		:storage => :s3,
