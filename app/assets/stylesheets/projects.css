@@ -35,7 +35,7 @@
 	margin: 0 auto;
 	min-height: 100px;
 }
-#projectlist a{display:inline;width: 90px;  height: 63px;}
+#projectlist a{;width: 90px;  height: 63px;}
 #projectlist a img{
 	opacity: 0.8;
  

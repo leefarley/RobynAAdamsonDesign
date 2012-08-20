@@ -1,9 +1,9 @@
 <hr id="projectruleinner" />
 <div id="projectlist">
 	<% @projects.each do |project| %>
-	<div class="projectItem">
+	<span class="projectItem">
 		<%= link_to (image_tag project.thumbnail.url), project_path(project.id), :remote => true %>
-	</div>
+	</span>
 	<% end %>
 </div>
 <script>
