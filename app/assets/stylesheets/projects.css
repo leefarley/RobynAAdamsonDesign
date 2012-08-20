@@ -4,7 +4,7 @@
 .projectinfo{color: #fff;margin:15px;}
 #projecttitle{}
 #projectclient{margin-top:5px;}
-#projectinfopane{font-size: 14.86;}
+#projectinfopane{font-size:14.86px;}
 .projectcontent{margin-top:5px;}
 #projectlist{}
 #tabs{text-transform:uppercase;width:246px;height:40px;}
@@ -16,7 +16,7 @@
     width:81px;
     float:left;
     text-align: center;
-    line-height: 2.6em;
+    line-height: 2.7em;
     border-bottom: 1px solid #303031;
     border-top: 1px solid #303031;
     cursor: pointer;
