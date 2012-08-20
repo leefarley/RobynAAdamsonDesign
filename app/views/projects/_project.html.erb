@@ -27,10 +27,10 @@
 				<div class="projectcontent" id='brief'>
 				 	<%= @project.brief %>
 				</div>
-				<div class="projectcontent" id='solution'>
+				<div class="projectcontent" style="display: none;" id='solution'>
 				 	<%= @project.solution %>
 				</div>
-				<div class="projectcontent" id='outcome'>
+				<div class="projectcontent" style="display: none;" id='outcome'>
 				 	<%= @project.outcome %>
 				</div>
 			</div>
@@ -47,34 +47,6 @@
     panel_height: 445,
     panel_width: 720,
     frame_gap:0
-	});
-
-	var tabs = $(".tab");
-	$('#brief').show();
-	$('#solution').hide();
-	$('#outcome').hide();
-
-	$(".brief").click(function() {
-		tabs.removeClass('selected');
-		$(this).addClass('selected');
-		$('#brief').show();
-		$('#solution').hide();
-		$('#outcome').hide();
-	});
-
-	$(".solution").click(function() {
-		tabs.removeClass('selected');
-		$(this).addClass('selected');
-		$('#brief').hide();
-		$('#solution').show();
-		$('#outcome').hide();
-	});
-	$(".outcome").click(function() {
-		tabs.removeClass('selected');
-		$(this).addClass('selected');
-		$('#brief').hide();
-		$('#solution').hide();
-		$('#outcome').show();
 	});
 </script>
 
