@@ -74916,3 +74916,1216 @@ Served asset /themes/light/panel-next-big.png - 304 Not Modified (18ms)
 
 Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-20 13:15:57 +1200
 Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bkgndTexture.png" for 127.0.0.1 at 2012-08-20 13:16:41 +1200
+Served asset /bkgndTexture.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (10.5ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 116ms (Views: 115.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homeSpirals.png" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /homeSpirals.png - 200 OK (11ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-08-20 13:22:18 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/webBanner.png" for 127.0.0.1 at 2012-08-20 13:22:19 +1200
+Served asset /webBanner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bkgndTexture.png" for 127.0.0.1 at 2012-08-20 13:22:19 +1200
+Served asset /bkgndTexture.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-08-20 13:37:50 +1200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Compiled projects.css  (0ms)  (pid 5458)
+Compiled application.css  (4ms)  (pid 5458)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 97ms (Views: 96.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /jquery.min.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (8ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /rails.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /application.css - 304 Not Modified (38ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /master.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /projects.css - 200 OK (1ms)
+
+
+Started GET "/assets/webBanner.png" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /webBanner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/homeSpirals.png" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /homeSpirals.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image.png" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /placeholder-image.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image4.png" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /placeholder-image4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image3.png" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /placeholder-image3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/placeholder-image2.png" for 127.0.0.1 at 2012-08-20 13:37:51 +1200
+Served asset /placeholder-image2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bkgndTexture.png" for 127.0.0.1 at 2012-08-20 13:37:52 +1200
+Served asset /bkgndTexture.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-08-20 13:37:56 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 4
+  Rendered projects/_project.html.erb (0.9ms)
+  Rendered projects/_projectList.html.erb (59.8ms)
+  Rendered projects/attic.html.erb within layouts/application (78.1ms)
+  Rendered layouts/_menu.html.erb (1.0ms)
+Completed 200 OK in 114ms (Views: 108.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /jquery.min.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /application.css - 304 Not Modified (10ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+Served asset /projects.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:37:57 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/webBanner.png" for 127.0.0.1 at 2012-08-20 13:37:58 +1200
+Served asset /webBanner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bkgndTexture.png" for 127.0.0.1 at 2012-08-20 13:37:58 +1200
+Served asset /bkgndTexture.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:37:58 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/themes/light/panel-next-big.png" for 127.0.0.1 at 2012-08-20 13:37:58 +1200
+Served asset /themes/light/panel-next-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/themes/light/panel-prev-big.png" for 127.0.0.1 at 2012-08-20 13:37:58 +1200
+Served asset /themes/light/panel-prev-big.png - 304 Not Modified (0ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 4
+  Rendered projects/_project.html.erb (12.3ms)
+  Rendered projects/_projectList.html.erb (63.3ms)
+  Rendered projects/attic.html.erb within layouts/application (77.4ms)
+Compiled projects.css  (0ms)  (pid 5458)
+Compiled application.css  (25ms)  (pid 5458)
+  Rendered layouts/_menu.html.erb (1.1ms)
+Completed 200 OK in 286ms (Views: 277.9ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /application.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /application.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /home.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+Served asset /projects.css - 200 OK (15ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:38:37 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/assets/webBanner.png" for 127.0.0.1 at 2012-08-20 13:38:38 +1200
+Served asset /webBanner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bkgndTexture.png" for 127.0.0.1 at 2012-08-20 13:38:38 +1200
+Served asset /bkgndTexture.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:38:38 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.4ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-08-20 13:39:27 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 4
+  Rendered projects/_project.html.erb (1.1ms)
+ERROR: compiling _app_views_projects__project_ist_html_erb___822676600_83769880 RAISED /home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/_projectList.html.erb:7: syntax error, unexpected keyword_do, expecting keyword_then or ';' or '\n'
+');	 if (i % 9 != 9) do 
+   	                   ^
+/home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/_projectList.html.erb:37: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _app_views_projects__project_ist_html_erb___822676600_83769880(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "projects/_projectList";_old_output_buffer = @output_buffer;projectList = local_assigns[:projectList];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<hr id="projectruleinner" />
+<div id="projectlist">
+');	 @projects.each_with_index do |project, i| 
+@output_buffer.safe_concat('	<div class="projectItem">
+		');@output_buffer.append= ( link_to (image_tag project.thumbnail.url), project_path(project.id), :remote => true );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('	</div>
+');	 if (i % 9 != 9) do 
+@output_buffer.safe_concat('		<div class="projectspacer"></div>
+');	 end 
+	 end 
+@output_buffer.safe_concat('</div>
+<script>
+
+	$(".brief").live(\'click\', function() {
+		$(".tab").removeClass(\'selected\');
+		$(this).addClass(\'selected\');
+		$(\'#brief\').show();
+		$(\'#solution\').hide();
+		$(\'#outcome\').hide();
+	});
+
+	$(".solution").live(\'click\',function() {
+		$(".tab").removeClass(\'selected\');
+		$(this).addClass(\'selected\');
+		$(\'#brief\').hide();
+		$(\'#solution\').show();
+		$(\'#outcome\').hide();
+	});
+	$(".outcome").live(\'click\',function() {
+		$(".tab").removeClass(\'selected\');
+		$(this).addClass(\'selected\');
+		$(\'#brief\').hide();
+		$(\'#solution\').hide();
+		$(\'#outcome\').show();
+	});
+</script>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:297:in `module_eval'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:297:in `compile'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:232:in `compile!'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:144:in `block in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:125:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:143:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/partial_renderer.rb:238:in `block in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/attic.html.erb:4:in `_app_views_projects_attic_html_erb__923034074_86670350'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:145:in `block in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:125:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:143:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:88:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activerecord-3.2.6/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/home/lee/Raichu/RobynAAdamsonDesign/app/controllers/projects_controller.rb:43:in `attic'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/base.rb:167:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:414:in `_run__318345484__process_action__379721399__callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/params_wrapper.rb:206:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activerecord-3.2.6/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/base.rb:121:in `process'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:45:in `process'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal.rb:203:in `dispatch'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal.rb:246:in `block in action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activerecord-3.2.6/lib/active_record/query_cache.rb:64:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activerecord-3.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `_run__661574193__call__957484783__callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/rack/logger.rb:26:in `call_app'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/rack/logger.rb:16:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/engine.rb:479:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/application.rb:220:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+  Rendered projects/_projectList.html.erb (112.5ms)
+  Rendered projects/attic.html.erb within layouts/application (115.4ms)
+Completed 500 Internal Server Error in 131ms
+
+ActionView::Template::Error (/home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/_projectList.html.erb:7: syntax error, unexpected keyword_do, expecting keyword_then or ';' or '\n'
+');	 if (i % 9 != 9) do 
+   	                   ^
+/home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/_projectList.html.erb:37: syntax error, unexpected keyword_ensure, expecting $end):
+    4: 	<div class="projectItem">
+    5: 		<%= link_to (image_tag project.thumbnail.url), project_path(project.id), :remote => true %>
+    6: 	</div>
+    7: 	<% if (i % 9 != 9) do %>
+    8: 		<div class="projectspacer"></div>
+    9: 	<% end %>
+    10: 	<% end %>
+  app/views/projects/attic.html.erb:4:in `_app_views_projects_attic_html_erb__923034074_86670350'
+  app/controllers/projects_controller.rb:43:in `attic'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.9ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.9ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-08-20 13:41:18 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (1.2ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 4
+  Rendered projects/_project.html.erb (10.5ms)
+ERROR: compiling _app_views_projects__project_ist_html_erb___822676600__615111808 RAISED /home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/_projectList.html.erb:4: syntax error, unexpected keyword_do, expecting keyword_then or ';' or '\n'
+		 if (i % 9 != 0) do 
+		                   ^
+/home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/_projectList.html.erb:37: syntax error, unexpected keyword_ensure, expecting $end
+Function body:           def _app_views_projects__project_ist_html_erb___822676600__615111808(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "projects/_projectList";_old_output_buffer = @output_buffer;projectList = local_assigns[:projectList];;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<hr id="projectruleinner" />
+<div id="projectlist">
+');	 @projects.each_with_index do |project, i| 
+		 if (i % 9 != 0) do 
+@output_buffer.safe_concat('			<div class="projectspacer"></div>
+');		 end 
+@output_buffer.safe_concat('		<div class="projectItem">
+			');@output_buffer.append= ( link_to (image_tag project.thumbnail.url), project_path(project.id), :remote => true );@output_buffer.safe_concat('
+');@output_buffer.safe_concat('		</div>
+');	 end 
+@output_buffer.safe_concat('</div>
+<script>
+
+	$(".brief").live(\'click\', function() {
+		$(".tab").removeClass(\'selected\');
+		$(this).addClass(\'selected\');
+		$(\'#brief\').show();
+		$(\'#solution\').hide();
+		$(\'#outcome\').hide();
+	});
+
+	$(".solution").live(\'click\',function() {
+		$(".tab").removeClass(\'selected\');
+		$(this).addClass(\'selected\');
+		$(\'#brief\').hide();
+		$(\'#solution\').show();
+		$(\'#outcome\').hide();
+	});
+	$(".outcome").live(\'click\',function() {
+		$(".tab").removeClass(\'selected\');
+		$(this).addClass(\'selected\');
+		$(\'#brief\').hide();
+		$(\'#solution\').hide();
+		$(\'#outcome\').show();
+	});
+</script>');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:297:in `module_eval'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:297:in `compile'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:244:in `block in compile!'
+<internal:prelude>:10:in `synchronize'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:232:in `compile!'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:144:in `block in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:125:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:143:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/partial_renderer.rb:265:in `render_partial'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/partial_renderer.rb:238:in `block in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/partial_renderer.rb:237:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:41:in `render_partial'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/helpers/rendering_helper.rb:27:in `render'
+/home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/attic.html.erb:4:in `_app_views_projects_attic_html_erb__923034074_86670350'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:145:in `block in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:125:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/template.rb:143:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_view/renderer/renderer.rb:17:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:88:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/rendering.rb:16:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/benchmark.rb:310:in `realtime'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activerecord-3.2.6/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/home/lee/Raichu/RobynAAdamsonDesign/app/controllers/projects_controller.rb:43:in `attic'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/base.rb:167:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:414:in `_run__318345484__process_action__379721399__callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `block in instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/notifications.rb:123:in `instrument'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/params_wrapper.rb:206:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activerecord-3.2.6/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/base.rb:121:in `process'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/abstract_controller/rendering.rb:45:in `process'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal.rb:203:in `dispatch'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_controller/metal.rb:246:in `block in action'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/journey-1.0.4/lib/journey/router.rb:68:in `block in call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/journey-1.0.4/lib/journey/router.rb:56:in `each'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/journey-1.0.4/lib/journey/router.rb:56:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/routing/route_set.rb:600:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/etag.rb:23:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/conditionalget.rb:25:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/head.rb:14:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:205:in `context'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/session/abstract/id.rb:200:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/cookies.rb:338:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activerecord-3.2.6/lib/active_record/query_cache.rb:64:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activerecord-3.2.6/lib/active_record/connection_adapters/abstract/connection_pool.rb:473:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `_run__661574193__call__957484783__callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:405:in `__run_callback'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/rack/logger.rb:26:in `call_app'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/rack/logger.rb:16:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/methodoverride.rb:21:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/runtime.rb:17:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/activesupport-3.2.6/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/lock.rb:15:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/static.rb:62:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/engine.rb:479:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/application.rb:220:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/content_length.rb:14:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/railties-3.2.6/lib/rails/rack/log_tailer.rb:17:in `call'
+/home/lee/.rvm/gems/ruby-1.9.2-p320/gems/rack-1.4.1/lib/rack/handler/webrick.rb:59:in `service'
+/home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+/home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+/home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+  Rendered projects/_projectList.html.erb (1.3ms)
+  Rendered projects/attic.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (/home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/_projectList.html.erb:4: syntax error, unexpected keyword_do, expecting keyword_then or ';' or '\n'
+		 if (i % 9 != 0) do 
+		                   ^
+/home/lee/Raichu/RobynAAdamsonDesign/app/views/projects/_projectList.html.erb:37: syntax error, unexpected keyword_ensure, expecting $end):
+    1: <hr id="projectruleinner" />
+    2: <div id="projectlist">
+    3: 	<% @projects.each_with_index do |project, i| %>
+    4: 		<% if (i % 9 != 0) do %>
+    5: 			<div class="projectspacer"></div>
+    6: 		<% end %>
+    7: 		<div class="projectItem">
+  app/views/projects/attic.html.erb:4:in `_app_views_projects_attic_html_erb__923034074_86670350'
+  app/controllers/projects_controller.rb:43:in `attic'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.erb (12.0ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.6ms)
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (45.8ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 4
+  Rendered projects/_project.html.erb (0.9ms)
+  Rendered projects/_projectList.html.erb (65.4ms)
+  Rendered projects/attic.html.erb within layouts/application (77.6ms)
+  Rendered layouts/_menu.html.erb (0.8ms)
+Completed 200 OK in 109ms (Views: 106.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /jquery.min.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /application.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /application.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (75ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+Served asset /projects.css - 304 Not Modified (3ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:41:27 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/webBanner.png" for 127.0.0.1 at 2012-08-20 13:41:28 +1200
+Served asset /webBanner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bkgndTexture.png" for 127.0.0.1 at 2012-08-20 13:41:28 +1200
+Served asset /bkgndTexture.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:41:28 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.6ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  [1m[35mImage Load (0.2ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 4
+  Rendered projects/_project.html.erb (1.1ms)
+  Rendered projects/_projectList.html.erb (67.2ms)
+  Rendered projects/attic.html.erb within layouts/application (72.0ms)
+  Rendered layouts/_menu.html.erb (0.9ms)
+Completed 200 OK in 113ms (Views: 110.7ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /jquery.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:51 +1200
+Served asset /master.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-20 13:41:52 +1200
+Served asset /projects.css - 304 Not Modified (4ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:41:52 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (4.6ms)
+
+
+Started GET "/assets/webBanner.png" for 127.0.0.1 at 2012-08-20 13:41:52 +1200
+Served asset /webBanner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bkgndTexture.png" for 127.0.0.1 at 2012-08-20 13:41:52 +1200
+Served asset /bkgndTexture.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:41:52 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:42:14 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/attic" for 127.0.0.1 at 2012-08-20 13:42:53 +1200
+Processing by ProjectsController#attic as HTML
+  [1m[36mProject Load (0.8ms)[0m  [1mSELECT "projects".* FROM "projects" [0m
+  [1m[35mImage Load (0.1ms)[0m  SELECT "images".* FROM "images" WHERE "images"."project_id" = 4
+  Rendered projects/_project.html.erb (1.0ms)
+  Rendered projects/_projectList.html.erb (148.0ms)
+  Rendered projects/attic.html.erb within layouts/application (157.4ms)
+  Rendered layouts/_menu.html.erb (0.6ms)
+Completed 200 OK in 182ms (Views: 179.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery.min.js?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /jquery.min.js - 304 Not Modified (18ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.galleryview-3.0.js?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /jquery.galleryview-3.0.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /application.js - 304 Not Modified (14ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.easing.1.3.js?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /jquery.easing.1.3.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timers-1.2.js?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /jquery.timers-1.2.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /application.css - 304 Not Modified (13ms)
+
+
+Started GET "/assets/galleryview-3.0.css?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /galleryview-3.0.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /projects.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/assets/master.css?body=1" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /master.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/webBanner.png" for 127.0.0.1 at 2012-08-20 13:42:54 +1200
+Served asset /webBanner.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bkgndTexture.png" for 127.0.0.1 at 2012-08-20 13:42:55 +1200
+Served asset /bkgndTexture.png - 304 Not Modified (0ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:42:55 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.2ms)
+
+
+Started GET "/thumbnails/original/missing.png" for 127.0.0.1 at 2012-08-20 13:43:00 +1200
+
+ActionController::RoutingError (No route matches [GET] "/thumbnails/original/missing.png"):
+  actionpack (3.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.6) lib/rails/rack/logger.rb:26:in `call_app'
+  railties (3.2.6) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.1) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.1) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.6) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.1) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.6) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.6) lib/rails/engine.rb:479:in `call'
+  railties (3.2.6) lib/rails/application.rb:220:in `call'
+  rack (1.4.1) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.6) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.1) lib/rack/handler/webrick.rb:59:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:111:in `service'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/httpserver.rb:70:in `run'
+  /home/lee/.rvm/rubies/ruby-1.9.2-p320/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
+
+
+  Rendered /home/lee/.rvm/gems/ruby-1.9.2-p320/gems/actionpack-3.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
