@@ -12,6 +12,7 @@ Raichu::Application.routes.draw do
   post  'admin/create'
   match 'admin/:project_id/images' => 'admin#images', :as => :images, :via => :get
   match 'admin/:project_id/images/create' => 'admin#create_image', :as => :create_image, :via => :post
+  match 'admin/image/:image_id' => 'admin#delete_image', :as => :delete_image, :via => :delete
   match 'admin/:id/edit'   => 'admin#edit'  , :as => :admin_edit,:via => :get
   match 'admin/:id/update' => 'admin#update', :as => :admin_update,:via => :put
   match 'admin/:id' => 'admin#delete', :as => :admin_delete, :via => :delete
