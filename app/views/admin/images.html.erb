@@ -1,15 +1,17 @@
 <%= form_for(@image, :url => create_image_path, :html => {:multipart => true }) do |f| %>
 <table>
-	<tr>
+	
 		<% @images.each do |image| %>
+		<tr>
 			<td>
 				<%= image_tag image.image.url, :style => "width:100px;height:100px;" %>
 			</td>
 			<td>
 				<%= link_to "delete", delete_image_path(:image_id => image.id), method: :delete, data: { confirm: 'Are you sure?' } %>
 			</td>
+			</tr>
 		<% end %>
-	</tr>
+	
 </table>
 <table>
 	<tr>
