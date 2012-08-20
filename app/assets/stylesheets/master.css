@@ -14,5 +14,4 @@ body{background: url("bkgndTexture.png") 0 0 repeat;}
 #body .content{width:965px;height:445px;float:left;}
 .clear{	clear: both;}
 .projectrule{margin:32px 3px 11px 0;}
-#projectruletop{margin:32px 6px 11px 0px;}
-#projectrulebottom{margin:11px 6px 0 0;}
+#projectruletop{margin:16px 6px 11px 0px;}
