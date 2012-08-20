@@ -4,7 +4,7 @@ body{background: url("bkgndTexture.png") 0 0 repeat;}
 #header{height:212px;}
 #header .headerimage{width:1165px;}
 #body{padding: 0px 35px 0px 55px;}
-#body .menu{width:141px;float:left;vertical-align: middle;}
+#body .menu{width:141px;float:left;vertical-align: middle;font-family: 'Gentium Book Basic', serif;}
 #body .menu ul{color: white;list-style: none;font-size: 14.86px;padding-left:0px;margin: 0px;height: 445px;background-color: #404041;}
 #body .menu ul li{	height: 63.5px;background-color: #404041;text-transform:uppercase;text-align: center;margin-left: 0px;line-height: 4.2em;}
 #body .menu ul li a{color:#fff; text-decoration:none;font-family: 'Gentium Book Basic', serif;}
