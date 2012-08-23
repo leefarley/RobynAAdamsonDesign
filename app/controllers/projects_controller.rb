@@ -3,7 +3,7 @@ class ProjectsController < ApplicationController
 
   # GET /design
   def design
-    @projects = Project.where(:is_featured => true,:project_type => 0)
+    @projects = Project.where(:is_featured => true,:project_type => 0).limit(10)
     @project = @projects.first()
     respond_to do |format|
       format.html # design.html.erb
@@ -12,7 +12,7 @@ class ProjectsController < ApplicationController
   
   # GET /illiustration
   def illustration
-    @projects = Project.where(:is_featured => true, :project_type => 1)
+    @projects = Project.where(:is_featured => true, :project_type => 1).limit(10)
     @project = @projects.first()
     respond_to do |format|
       format.html # illiustration.html.erb
@@ -21,7 +21,7 @@ class ProjectsController < ApplicationController
   
   # GET /miscellaneous
   def miscellaneous
-    @projects = Project.where(:is_featured => true, :project_type => 2)
+    @projects = Project.where(:is_featured => true, :project_type => 2).limit(10)
     @project = @projects.first()
     respond_to do |format|
       format.html # miscellaneous.html.erb
