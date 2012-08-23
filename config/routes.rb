@@ -1,12 +1,12 @@
 Raichu::Application.routes.draw do
 
-  match 'design' => 'projects#design'
-  match 'illustration' => 'projects#illustration'
-  match 'miscellaneous' => 'projects#miscellaneous'
-  match 'published' => 'projects#published'
-  match 'attic' => 'projects#attic'
-
-  match 'projects/show/:id' => 'projects#show', :as => :project
+  match 'design' => 'projects#design', :via => :get
+  match 'illustration' => 'projects#illustration', :via => :get
+  match 'miscellaneous' => 'projects#miscellaneous', :via => :get
+  match 'published' => 'projects#published', :via => :get
+  match 'attic' => 'projects#attic', :via => :get
+  match 'about' => 'home#about', :via => :get
+  match 'projects/show/:id' => 'projects#show', :as => :project, :via => :get
   match 'admin' => 'admin#index', :as => :admin, :via => :get
   get   'admin/new'
   post  'admin/create'
@@ -16,7 +16,7 @@ Raichu::Application.routes.draw do
   match 'admin/:id/edit'   => 'admin#edit'  , :as => :admin_edit,:via => :get
   match 'admin/:id/update' => 'admin#update', :as => :admin_update,:via => :put
   match 'admin/:id' => 'admin#delete', :as => :admin_delete, :via => :delete
-  get   'home/index'
+  match '/' => 'home#index', :as => :home, :via => :get
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

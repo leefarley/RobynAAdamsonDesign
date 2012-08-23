@@ -32,7 +32,7 @@
   float:left;
 }
 #projectlist {width: 1110px;min-height:73px;}
-#projectlist a{;width: 90px;height: 63px;}
+#projectlist a{;width: 90px;height: 63px;border:none;background-color: white;}
 #projectlist a img{
 	opacity: 0.8;
 	/*Transition*/
