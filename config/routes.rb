@@ -1,5 +1,7 @@
 Raichu::Application.routes.draw do
 
+  devise_for :users
+
   match 'design' => 'projects#design', :via => :get
   match 'illustration' => 'projects#illustration', :via => :get
   match 'miscellaneous' => 'projects#miscellaneous', :via => :get

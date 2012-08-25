@@ -1,3 +1,10 @@
+<div style="margin-bottom:20px;">
+  <% if user_signed_in? %>
+    Signed in as <%= current_user.email %>. Not you?
+    <%= link_to "Sign out", destroy_user_session_path, :method => :delete %>
+  <% end %>
+</div>
+
 <%= link_to "New project", admin_new_path %>
 <table>
 	<tr>

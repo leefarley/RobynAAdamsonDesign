@@ -7,6 +7,7 @@ gem 'jquery-rails'
 gem 'paperclip', '3.1.4'
 gem 'aws-s3'
 gem 'aws-sdk'
+gem 'devise'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
