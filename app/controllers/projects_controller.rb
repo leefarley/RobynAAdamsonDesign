@@ -45,9 +45,15 @@ class ProjectsController < ApplicationController
     end
   end
 
-  # GET /projects/1.json
+  # GET /show/1.json
   def show
     @project = Project.find(params[:id])
+    respond_to do |format|
+      format.js
+      format.html {
+        render action: "attic"  
+      }
+    end
   end
 
 end

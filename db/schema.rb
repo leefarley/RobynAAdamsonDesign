@@ -11,32 +11,34 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120824023210) do
+ActiveRecord::Schema.define(:version => 20121126044812) do
 
   create_table "images", :force => true do |t|
-    t.integer  "project_id"
-    t.string   "image_file_name"
-    t.string   "image_content_type"
-    t.integer  "image_file_size"
-    t.datetime "image_updated_at"
+    t.integer   "project_id"
+    t.string    "image_file_name"
+    t.string    "image_content_type"
+    t.integer   "image_file_size"
+    t.timestamp "image_updated_at"
   end
 
   create_table "projects", :force => true do |t|
-    t.string   "title",                                     :null => false
-    t.string   "client",                                    :null => false
-    t.string   "date_added",                                :null => false
-    t.text     "brief",                                     :null => false
-    t.text     "solution",                                  :null => false
-    t.text     "outcome",                                   :null => false
-    t.boolean  "is_featured",            :default => false, :null => false
-    t.boolean  "is_published",           :default => false, :null => false
-    t.integer  "project_type",           :default => 0,     :null => false
-    t.datetime "created_at",                                :null => false
-    t.datetime "updated_at",                                :null => false
-    t.string   "thumbnail_file_name"
-    t.string   "thumbnail_content_type"
-    t.integer  "thumbnail_file_size"
-    t.datetime "thumbnail_updated_at"
+    t.string    "title",                                     :null => false
+    t.string    "client",                                    :null => false
+    t.string    "date_added",                                :null => false
+    t.text      "brief",                                     :null => false
+    t.text      "solution",                                  :null => false
+    t.text      "outcome",                                   :null => false
+    t.boolean   "is_featured",            :default => false, :null => false
+    t.boolean   "is_published",           :default => false, :null => false
+    t.integer   "project_type",           :default => 0,     :null => false
+    t.timestamp "created_at",                                :null => false
+    t.timestamp "updated_at",                                :null => false
+    t.string    "thumbnail_file_name"
+    t.string    "thumbnail_content_type"
+    t.integer   "thumbnail_file_size"
+    t.timestamp "thumbnail_updated_at"
+    t.boolean   "purchasable",            :default => false, :null => false
+    t.string    "purchase_link"
   end
 
   create_table "users", :force => true do |t|

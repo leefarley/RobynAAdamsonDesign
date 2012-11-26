@@ -1,5 +1,6 @@
 <hr id="projectruletop" />
 <div id="projectlist">
+	<% if @projects != nil %>
 	<% @projects.each_with_index do |project, i| %>
 		<% if (i % 10 != 0) %>
 			<div class="projectspacer"></div>
@@ -7,6 +8,7 @@
 		<div class="projectItem">
 			<%= link_to (image_tag project.thumbnail.url), project_path(project.id), :remote => true %>
 		</div>
+	<% end %>
 	<% end %>
 </div>
 <div class="clear" ></div>

@@ -1,4 +1,9 @@
-.splashpage{position:relative;width:360px; height:445px;float:left;}
-.splashpage img{height:445px;}
-.splashpage #Abouttext{height:445px;padding:220px 53px 52px 0;text-align:right;}
+.splashpage{position:relative;width:720px; height:445px;float:left;background: url("homeSpirals.png") 0 0 no-repeat;font-family: 'Gentium Book Basic', serif; }
+.splashpage #Abouttext{height:226px;padding:220px 53px 52px 0;text-align:right;}
 #featureimage{position:relative;width:245px; height:445px;float:right;}
+#featureimage a{display: block;}
+.splashpage #homeTitle{font-size: 26.7px;margin-bottom: 0;padding-bottom: 0;margin-bottom: 15px;}
+.splashpage #homeLocation{font-size: 21.75px;margin-bottom: 5px;}
+.splashpage #homeEmail{font-size: 19.78px;}
+.splashpage #homeRule{width:244px;float:right;margin-top:26px;margin-bottom: 10px;}
+.splashpage #homeFeatured{clear: both;margin-left: 350px;height:83px;overflow: none;}

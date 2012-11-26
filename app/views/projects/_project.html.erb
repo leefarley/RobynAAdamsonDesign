@@ -1,4 +1,8 @@
 <div class="content">
+	<div id="projectImageWarpper">
+		<% if @project.purchasable %>
+			<a href="<%= @project.purchase_link %>" id="buyNowLink" ></a>
+		<% end %>
 		<div id="projectimageviewer"> 
 			<div id="myGallery">
 			<% @project.images.each do |image| %>
@@ -6,6 +10,7 @@
 			<% end %>
 			</div>
 		</div>
+	</div>
 		<div id="projectinfopane">
 			<div class="projectinfo">
 				<div id="projecttitle">

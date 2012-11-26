@@ -5,4 +5,5 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
-User.create(email: 'Lee@robynaadamsondesign.com',password: 'password')
+# User.create(email: 'Lee@robynaadamsondesign.com',password: 'password')
+Featured.create(:project_id => '59', :featured_text => 'far 2 kwik')

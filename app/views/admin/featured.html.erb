@@ -1,0 +1,17 @@
+<%= form_for(@featured, :url => update_featured_path(@featured.id)) do |f| %>
+<table>
+	<tr>
+		<td>
+  <%= f.collection_select(:project_id, @projects, :id, :title, {:include_blank => 'Please select a featured project'})  %>
+</td>
+</tr>
+<tr>
+	<td>
+  <%= f.text_area :featured_text %>
+</td>
+</tr>
+</table>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

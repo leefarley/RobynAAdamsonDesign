@@ -1,26 +1,29 @@
 <div class="content">
 	<div class="splashpage">
-		<%= image_tag "homeSpirals.png" %>
-	</div>
-	<div class="splashpage">
 		<div id="Abouttext">
-			<h3>Graphic Design & Illustration</h3>
-			Wellington, New Zealand<br/>
-			robyn.a.adamson@gmail.com 
+			<div id="homeTitle"><b>Graphic Design & Illustration</b></div>
+			<div id="homeLocation"><i>Wellington, New Zealand</i></div>
+			<div id="homeEmail">robyn.a.adamson@gmail.com</div> 
+			<hr  id="homeRule" />
+			<div id="homeFeatured"><%= @featured.featured_text %></div>
 		</div>
 	</div>
 	<div id="featureimage"> 
+		<%= link_to view_project_path(@featured.project_id) do %>
 		<div id="myGallery">
-		<li><%= image_tag "placeholder-image.png" %></li>
+			<% @featured.images.each do |image| %>
+				<li><%= image_tag image.image.url %></li>
+			<% end %> 
+<!-- 		<li><%= image_tag "placeholder-image.png" %></li>
 		<li><%= image_tag "placeholder-image2.png" %></li>
 		<li><%= image_tag "placeholder-image3.png" %></li>
-		<li><%= image_tag "placeholder-image4.png" %></li>
+		<li><%= image_tag "placeholder-image4.png" %></li> -->
 		</div>
+	<% end %>
 	</div>
 </div>
 <div class="clear"></div>
-<hr class="projectrule" />
-
+<hr id="projectruletop" />
 <script>
 	$(document).ready(function() {
   		$('#myGallery').galleryView({
@@ -34,8 +37,6 @@
 		    autoplay: true,
 		    transition_interval:1000,
 		    show_panel_nav: false
-			});
+		});
 	});
-	
-
 </script>

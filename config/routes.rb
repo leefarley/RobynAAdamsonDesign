@@ -7,11 +7,14 @@ Raichu::Application.routes.draw do
   match 'miscellaneous' => 'projects#miscellaneous', :via => :get
   match 'published' => 'projects#published', :via => :get
   match 'attic' => 'projects#attic', :via => :get
+  match 'project/:id' => 'projects#show', :as => :view_project, :via => :get
   match 'about' => 'home#about', :via => :get
   match 'projects/show/:id' => 'projects#show', :as => :project, :via => :get
   match 'admin' => 'admin#index', :as => :admin, :via => :get
   get   'admin/new'
   post  'admin/create'
+  match 'admin/featured' => 'admin#featured', :as => :featured, :via => :get
+  match 'admin/featured/:id' => 'admin#update_featured', :as => :update_featured, :via => :put
   match 'admin/:project_id/images' => 'admin#images', :as => :images, :via => :get
   match 'admin/:project_id/images/create' => 'admin#create_image', :as => :create_image, :via => :post
   match 'admin/image/:image_id' => 'admin#delete_image', :as => :delete_image, :via => :delete

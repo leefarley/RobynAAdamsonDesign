@@ -9,6 +9,8 @@ class Project < ActiveRecord::Base
 	:is_featured,
 	:is_published,
 	:project_type,
+	:purchasable,
+	:purchase_link,
 	:thumbnail,
 	:thumbnail_file_name,
 	:thumbnail_content_type,

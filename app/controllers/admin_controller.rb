@@ -86,4 +86,22 @@ class AdminController < ApplicationController
     
   end
 
+  def featured
+    if !(@featured = Featured.last())
+      @featured.new
+    end
+    @projects = Project.all
+  end
+
+  def update_featured
+    @featured = Featured.find(params[:id])
+    respond_to do |format|
+      if @featured.update_attributes(params[:featured])
+        format.html { redirect_to admin_path, notice: 'featured was successfully updated.' }
+      else
+        format.html { redirect_to featured_path, notice: 'featured failed updated!' }
+      end
+    end
+  end
+
 end

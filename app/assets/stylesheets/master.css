@@ -1,8 +1,8 @@
 @import url(http://fonts.googleapis.com/css?family=Gentium+Book+Basic);
 body{background: url("bkgndTexture.png") 0 0 repeat;}
 #website{width: 1200px;margin: auto;font-family: 'Gentium Book Basic', serif;}
-#header{height:212px;}
-#header .headerimage{width:1165px;}
+#header{height:188px;margin-left:9.7px;}
+#header .headerimage{width:1155.4px;}
 #body{padding: 0px 35px 0px 55px;}
 #body .menu{width:145px;float:left;vertical-align: middle;font-family: 'Gentium Book Basic', serif;}
 #body .menu ul{color: white;list-style: none;font-size: 14.86px;padding-left:0px;margin: 0px;height: 445px;background-color: #404041;}
@@ -15,3 +15,9 @@ body{background: url("bkgndTexture.png") 0 0 repeat;}
 .clear{clear: both;}
 .projectrule{margin:32px 3px 11px 0;}
 #projectruletop{margin:16px 0px 11px 0px;}
+#aboutPhotoSection{width:245px;height:445px;float:left}
+#aboutTextSection{width: 720px; height: 445px;float:left;background-color: #404041;color:#fff;}
+#aboutText{margin:61px 0 100px 46px;width:560px;}
+#aboutText p{margin-top: 8px; margin-bottom: 8px;font-family: 'Gentium Book Basic', serif;font-size:14.86px;}
+#aboutText br{line-height: 5px;}
+#footer{width:100%; padding-top: 10px;}
