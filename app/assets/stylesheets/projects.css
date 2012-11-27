@@ -1,6 +1,6 @@
 #projectselected{position:relative;width:960px; height:445px;}
 #projectImageWarpper{width: 720px; height: 445px; padding: 0px;}
-#buyNowLink {display: block; width:220px; height:150px;position:absolute;padding-left:500px;background-color: white;background-size:100%;background: url("buyMe.png") 500px 0 no-repeat; z-index: 200}
+#buyNowLink {display: block; width:130px; height:85px;position:absolute;padding-left:590px;background-color: white;background-size:100%;background: url("buyMe.png") 590px 0 no-repeat; z-index: 200}
 #projectimageviewer{position:relative;width:720px; height:445px;float:left;}
 #projectinfopane{position:relative;width:246px; height:445px;top:-445px;float:right;background-color: #404041;}
 .projectinfo{color: #fff;margin:15px;}
